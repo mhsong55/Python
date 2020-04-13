@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PlatformConfig>
+	<!--int类型的谓词有"=="、"!="、">"、"<"、">="、"<="-->
+	<!--string类型的谓词有"=="、"!="、"startwith"、"endwith"、"contain"、"not startwith"、"not endwith"、"not contain"-->
+	<!--string类型的宾语大小写不敏感-->
+	<!--ConditionGroup类型只有"and"和"or"-->
+	<Variables>
+		<Variable name="SDK_INT" type="int"/>
+		<!--CPU的核数-->
+		<Variable name="CORE_NUM" type="int"/>
+		<!--设备模型-->
+		<Variable name="MODEL" type="string"/>
+		<!--设备制造商-->
+		<Variable name="MANUFACTURER" type="string"/>
+		<Variable name="GL_RENDERER" type="string"/>
+		<Variable name="GL_VENDOR" type="string"/>
+		<Variable name="GL_VERSION" type="string"/>
+		<Variable name="GL_EXTENSIONS" type="string"/>
+	</Variables>
+	<!--是否启用多线程渲染-->
+	<Config name="EnableRenderThread">
+		<ConditionGroup type="and">
+			<Condition subject="SDK_INT" predicate=">=" object="14"/>
+			<Condition subject="CORE_NUM" predicate=">=" object="2"/>
+			<Condition subject="MODEL" predicate="!=" object="LT26i"/>
+			<Condition subject="MODEL" predicate="!=" object="Nokia_X"/>
+			<Condition subject="MODEL" predicate="!=" object="MX4 Pro"/>
+			<Condition subject="MODEL" predicate="not contain" object="HUAWEI Y320"/>
+			<Condition subject="MODEL" predicate="not contain" object="X909"/>
+			<Condition subject="GL_RENDERER" predicate="not contain" object="Adreno (TM) 220"/>
+			<Condition subject="GL_RENDERER" predicate="not contain" object="Adreno (TM) 20"/>
+			<Condition subject="GL_RENDERER" predicate="not contain" object="GC1000"/>
+			<Condition subject="GL_RENDERER" predicate="not contain" object="GC2000"/>
+			<Condition subject="GL_RENDERER" predicate="not contain" object="Immersion.16"/>
+		</ConditionGroup>
+	</Config>
+	<!--是否在加载线程中创建GPU资源-->
+	<Config name="EnableThreadedGPURes">
+		<ConditionGroup type="and">
+			<Condition subject="SDK_INT" predicate=">=" object="14"/>
+			<Condition subject="CORE_NUM" predicate=">=" object="2"/>
+			<Condition subject="GL_RENDERER" predicate="not contain" object="Adreno (TM) 220"/>
+			<Condition subject="GL_RENDERER" predicate="not contain" object="Adreno (TM) 20"/>
+			<Condition subject="GL_RENDERER" predicate="not contain" object="GC1000"/>
+			<Condition subject="GL_RENDERER" predicate="not contain" object="GC2000"/>
+			<Condition subject="GL_RENDERER" predicate="not contain" object="Immersion.16"/>
+			<Condition subject="GL_RENDERER" predicate="not contain" object="Tegra"/>
+		</ConditionGroup>
+	</Config>
+	<!--顶点格式发生变化的时候是否需要重设program-->
+	<Config name="NeedResetProgramWhenVBChange">
+		<ConditionGroup type="and">
+			<Condition subject="GL_RENDERER" predicate="contain" object="Adreno"/>
+			<ConditionGroup type="or">
+				<Condition subject="GL_RENDERER" predicate="contain" object="200"/>
+				<Condition subject="GL_RENDERER" predicate="contain" object="203"/>
+				<Condition subject="GL_RENDERER" predicate="contain" object="205"/>
+				<Condition subject="GL_RENDERER" predicate="contain" object="220"/>
+				<Condition subject="GL_RENDERER" predicate="contain" object="225"/>
+			</ConditionGroup>
+		</ConditionGroup>
+	</Config>
+	<!--是否强关BinaryShader(部分设备虽然从glExtension中读取支持，但驱动实现有问题)-->
+	<Config name="ForceDisableBinaryShader">
+		<ConditionGroup type="or">
+			<Condition subject="GL_RENDERER" predicate="contain" object="GC1000"/>
+			<Condition subject="GL_RENDERER" predicate="contain" object="GC2000"/>
+			<Condition subject="GL_RENDERER" predicate="contain" object="Immersion"/>
+		</ConditionGroup>
+	</Config>
+	<!--是否强关批量渲染-->
+	<Config name="ForceDisableBatching">
+		<ConditionGroup type="or">
+			<Condition subject="GL_RENDERER" predicate="contain" object="GC1000"/>
+			<Condition subject="GL_RENDERER" predicate="contain" object="GC2000"/>
+			<Condition subject="GL_RENDERER" predicate="contain" object="Immersion"/>
+		</ConditionGroup>
+	</Config>
+	<!--是否强关glMapBuffer(部分设备驱动实现有问题)-->
+	<Config name="ForceDisableGLMap">
+		<ConditionGroup type="or">
+			<Condition subject="SDK_INT" predicate="&lt;" object="14"/>
+			<Condition subject="GL_RENDERER" predicate="contain" object="tegra"/>
+			<Condition subject="GL_RENDERER" predicate="contain" object="Immersion"/>
+			<Condition subject="GL_RENDERER" predicate="contain" object="GC1000"/>
+			<Condition subject="GL_RENDERER" predicate="contain" object="GC2000"/>
+			<Condition subject="GL_RENDERER" predicate="contain" object="GC3000"/>
+			<Condition subject="GL_RENDERER" predicate="contain" object="GC4000"/>
+		</ConditionGroup>
+	</Config>
+	<!--是否支持internal format为BGRA-->
+	<Config name="SupportInternalBGRA">
+		<ConditionGroup type="and">
+			<Condition subject="GL_RENDERER" predicate="not contain" object="GC1000"/>
+		</ConditionGroup>
+	</Config>
+	<!--是否支持浮点纹理-->
+	<Config name="SupportFloatTexture">
+		<ConditionGroup type="and">
+			<Condition subject="GL_RENDERER" predicate="not contain" object="Adreno (TM) 330"/>
+			<Condition subject="MODEL" predicate="!=" object="MI 3W"/>
+		</ConditionGroup>
+	</Config>
+	<!--是否修改fmodDSPBuffer-->
+	<Config name="ModifyFmodDspBuffer">
+		<ConditionGroup type="or">
+			<Condition subject="MODEL" predicate="==" object="M351"/>
+			<Condition subject="MODEL" predicate="==" object="M353"/>
+			<Condition subject="MODEL" predicate="==" object="M355"/>
+			<Condition subject="MODEL" predicate="==" object="M355"/>
+			<Condition subject="MODEL" predicate="==" object="Tab2A7-10"/>
+			<Condition subject="MODEL" predicate="==" object="vivo Y17T"/>
+			<Condition subject="MODEL" predicate="==" object="U705T"/>
+			<Condition subject="MODEL" predicate="==" object="ZTE U817"/>
+			<Condition subject="MODEL" predicate="==" object="msm8952 for arm64"/>
+			<Condition subject="MODEL" predicate="==" object="msm8996 for arm64"/>
+		</ConditionGroup>
+	</Config>
+	<!--是否使用Shader cache-->
+	<Config name="UseShaderCache">
+		<ConditionGroup type="or">
+          		<Condition subject="GL_RENDERER" predicate="contain" object="PowerVR SGX 544MP"/>
+          		<Condition subject="GL_RENDERER" predicate="contain" object="Adreno (TM) 320"/>          
+          		<Condition subject="GL_RENDERER" predicate="contain" object="Mali-T720"/>         
+		</ConditionGroup>
+	</Config>
+	<!--是否在Unlock Buffer之后调用glFinish-->
+	<Config name="ForceFinishAfterUnlock">
+		<ConditionGroup type="or">
+          		<Condition subject="MODEL" predicate="contain" object="MI-ONE"/>
+		</ConditionGroup>
+	</Config>
+	<!--是否shadowmap depth tex和屏幕分辨率一样 -->
+	<Config name="ShadowMapDepthSameWithScreen">
+		<ConditionGroup type="or">
+          		<Condition subject="GL_RENDERER" predicate="contain" object="PowerVR SGX 544MP"/>
+		</ConditionGroup>
+	</Config>
+	<!--是否开启shadowmap -->
+	<Config name="EnableShadowMap">
+		<ConditionGroup type="and">
+			<Condition subject="GL_RENDERER" predicate="not contain" object="Adreno (TM) 220"/>
+			<Condition subject="GL_RENDERER" predicate="not contain" object="Adreno (TM) 20"/>
+		</ConditionGroup>
+	</Config>
+	<!--是否需要glFlush当使用depth buffer时 -->
+	<Config name="NeedFlushForDepthBuffer">
+		<ConditionGroup type="and">
+			<Condition subject="GL_RENDERER" predicate="contain" object="Adreno (TM) 330"/>
+		</ConditionGroup>
+	</Config>
+</PlatformConfig>

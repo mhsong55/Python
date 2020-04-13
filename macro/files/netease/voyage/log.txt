@@ -1,0 +1,2708 @@
+[22:57:25.057]   [CLIENT] Exe module file: \system\bin\app_process32
+[22:57:25.057]   [CLIENT] Current directory: /storage/emulated/0/Android/data/com.netease.dhhzlggkr/files/netease/voyage
+[22:57:25.058]   [CLIENT] Initializing client....
+[22:57:25.062]   [CLIENT] Init utils.dll (1671665312)
+[22:57:25.095]   [UTILS] needRemoveShader : 0
+[22:57:25.273] M EnableThreadedGPURes : 1
+[22:57:25.308] M Succeeded to create FileLoader, opener sys, loader discrete, root \storage\emulated\0\Android\data\com.netease.dhhzlggkr\files\netease\voyage\Documents\res, depth 0
+[22:57:25.310] M Succeeded to create FileLoader, opener sys, loader npk, root \storage\emulated\0\Android\data\com.netease.dhhzlggkr\files\netease\voyage\Documents\res3, depth 0
+[22:57:25.314] M Succeeded to create FileLoader, opener sys, loader npk, root \storage\emulated\0\Android\data\com.netease.dhhzlggkr\files\netease\voyage\Documents\res2, depth 0
+[22:57:25.317] M Succeeded to create FileLoader, opener sys, loader npk, root \storage\emulated\0\Android\data\com.netease.dhhzlggkr\files\netease\voyage\Documents\res, depth 0
+[22:57:25.319] M Succeeded to create FileLoader, opener sys, loader discrete, root \storage\emulated\0\Android\data\com.netease.dhhzlggkr\files\netease\voyage\res_patch, depth 0
+[22:57:25.319] M Succeeded to create FileLoader, opener sys, loader discrete, root \storage\emulated\0\Android\data\com.netease.dhhzlggkr\files\netease\voyage\res, depth 0
+[22:57:25.320] M Succeeded to create FileLoader, opener sys, loader npk, root \storage\emulated\0\Android\data\com.netease.dhhzlggkr\files\netease\voyage\res3, depth 0
+[22:57:25.321] M Succeeded to create FileLoader, opener sys, loader npk, root \storage\emulated\0\Android\data\com.netease.dhhzlggkr\files\netease\voyage\res2, depth 0
+[22:57:25.332] M Package /storage/emulated/0/Android/data/com.netease.dhhzlggkr/files/netease/voyage/res.npk under opener sys is loaded.
+[22:57:25.333] M Succeeded to create FileLoader, opener sys, loader npk, root \storage\emulated\0\Android\data\com.netease.dhhzlggkr\files\netease\voyage\res, depth 0
+[22:57:25.334] M Succeeded to create FileLoader, opener sys, loader discrete, root \storage\emulated\0\Android\data\com.netease.dhhzlggkr\files\netease\voyage\script_patch, depth 0
+[22:57:25.334] M Succeeded to create FileLoader, opener sys, loader discrete, root \storage\emulated\0\Android\data\com.netease.dhhzlggkr\files\netease\voyage\script, depth 0
+[22:57:25.343] M Package /storage/emulated/0/Android/data/com.netease.dhhzlggkr/files/netease/voyage/script.npk under opener sys is loaded.
+[22:57:25.343] M Succeeded to create FileLoader, opener sys, loader npk, root \storage\emulated\0\Android\data\com.netease.dhhzlggkr\files\netease\voyage\script, depth 0
+[22:57:25.345] M Start log.dll
+[22:57:25.346] M Init utils.dll (1671665312)
+[22:57:25.346] M [UTILS] Start utils.dll
+[22:57:25.349] M [UTILS] Init render.dll (2487404089)
+[22:57:25.354] M [UTILS] CPU Name placeholder, core count of this device is: 2
+[22:57:25.355] M [UTILS] device model is AOSP on Shama
+[22:57:25.355] M [UTILS] enable_render_thread is 0
+[22:57:25.357] M [RENDER] Init python.dll (1335575602)
+[22:57:25.358] M [RENDER] Init audio.dll (1092544220)
+[22:57:25.359] M [RENDER] Init world.dll (2648298854)
+[22:57:25.360] M [RENDER] Init terrain.dll (2572047601)
+[22:57:25.361] M [RENDER] Init collision.dll (209534444)
+[22:57:25.364] M [RENDER] Init detour.dll (3413454381)
+[22:57:25.365] M [RENDER] Init voice.dll (2568723357)
+[22:57:25.365] M [RENDER] Init cocosui.dll (1144999243)
+[22:57:25.366] M [RENDER] Init social.dll (688878058)
+[22:57:25.366] M [RENDER] Start render.dll
+[22:57:25.367] M [RENDER] Start python.dll
+[22:57:25.369] M [PYTHON] Start audio.dll
+[22:57:25.370] M [AUDIO] Start world.dll
+[22:57:25.371] M [WORLD] Start terrain.dll
+[22:57:25.371] M [TERRAIN] Start collision.dll
+[22:57:25.372] M [COLLISION] Start detour.dll
+[22:57:25.372] M [DETOUR] Start voice.dll
+[22:57:25.372] M [DETOUR] Start cocosui.dll
+[22:57:25.372] M [COCOSUI] Start social.dll
+[22:57:25.387] M [COCOSUI] Succeed to create first eglcontext 0xaea03a90
+[22:57:25.393] M [COCOSUI] EGLES2Context::SetCurrent: 0xaea03a90
+[22:57:25.400] M [COCOSUI] [EGLES2Context::EGLES2Context]Surface size is (960, 540)
+[22:57:25.428] M [COCOSUI] GLES Support Extensions GL_EXT_debug_marker GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_OES_texture_half_float GL_EXT_robustness GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float ANDROID_gles_max_version_3_1 GL_OES_vertex_array_object GL_EXT_color_buffer_half_float
+[22:57:25.429] M [COCOSUI] Maximum vertex attribs is 16
+[22:57:25.430] M [COCOSUI] -------------- shader precision start --------------------
+[22:57:25.430] M [COCOSUI] Fragment shader high precision float range: 127 127 precision: 23
+[22:57:25.431] M [COCOSUI] Fragment shader medium precision float range: 127 127 precision: 23
+[22:57:25.431] M [COCOSUI] Fragment shader low precision float range: 127 127 precision: 23
+[22:57:25.431] M [COCOSUI] Fragment shader high precision int range: 16 16 precision: 0
+[22:57:25.432] M [COCOSUI] Fragment shader medium precision int range: 16 16 precision: 0
+[22:57:25.432] M [COCOSUI] Fragment shader low precision int range: 16 16 precision: 0
+[22:57:25.432] M [COCOSUI] Vertex shader high precision float range: 127 127 precision: 23
+[22:57:25.433] M [COCOSUI] Vertex shader medium precision float range: 127 127 precision: 23
+[22:57:25.433] M [COCOSUI] Vertex shader low precision float range: 127 127 precision: 23
+[22:57:25.433] M [COCOSUI] Vertex shader high precision int range: 16 16 precision: 0
+[22:57:25.433] M [COCOSUI] Vertex shader medium precision int range: 16 16 precision: 0
+[22:57:25.434] M [COCOSUI] Vertex shader low precision int range: 16 16 precision: 0
+[22:57:25.434] M [COCOSUI] -------------- shader precision stop --------------------
+[22:57:25.434] M [COCOSUI] Maximum uniform vector is 1024
+[22:57:25.434] M [COCOSUI] Supported Compress Format 0x8b91
+[22:57:25.435] M [COCOSUI] Supported Compress Format 0x8b93
+[22:57:25.435] M [COCOSUI] Supported Compress Format 0x8b96
+[22:57:25.435] M [COCOSUI] Supported Compress Format 0x8b98
+[22:57:25.435] M [COCOSUI] Supported Compress Format 0x8b90
+[22:57:25.435] M [COCOSUI] Supported Compress Format 0x8b95
+[22:57:25.436] M [COCOSUI] Supported Compress Format 0x8b94
+[22:57:25.436] M [COCOSUI] Supported Compress Format 0x8b99
+[22:57:25.436] M [COCOSUI] Supported Compress Format 0x8b92
+[22:57:25.436] M [COCOSUI] Supported Compress Format 0x8b97
+[22:57:25.436] M [COCOSUI] Supported Compress Format 0x8d64
+[22:57:25.436] M [COCOSUI] Supported Compress Format 0x9274
+[22:57:25.437] M [COCOSUI] Supported Compress Format 0x9271
+[22:57:25.437] M [COCOSUI] Supported Compress Format 0x9272
+[22:57:25.437] M [COCOSUI] Supported Compress Format 0x9273
+[22:57:25.437] M [COCOSUI] Supported Compress Format 0x9274
+[22:57:25.437] M [COCOSUI] Supported Compress Format 0x9275
+[22:57:25.438] M [COCOSUI] Supported Compress Format 0x9276
+[22:57:25.438] M [COCOSUI] Supported Compress Format 0x9277
+[22:57:25.438] M [COCOSUI] Supported Compress Format 0x9278
+[22:57:25.439] M [COCOSUI] Supported Compress Format 0x9279
+[22:57:25.439] M [COCOSUI] Supported Compress Format 0x9270
+[22:57:25.439] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.439] M [COCOSUI] Supported Compress Format 0x3b473f86
+[22:57:25.440] M [COCOSUI] Supported Compress Format 0x931
+[22:57:25.440] M [COCOSUI] Supported Compress Format 0x1
+[22:57:25.440] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.440] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.440] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.441] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.441] M [COCOSUI] Supported Compress Format 0x1
+[22:57:25.441] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.441] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.442] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.442] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.442] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.442] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.442] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.442] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.443] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.443] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.443] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.443] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.443] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.443] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.444] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.444] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.444] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.444] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.444] M [COCOSUI] Supported Compress Format 0x0
+[22:57:25.445] M [COCOSUI]  SupportGLMapBuffer 0
+[22:57:25.445] M [COCOSUI] EGLES2Context::SetCurrent: 0xaea03a90
+[22:57:25.446] M [COCOSUI] [EGLES2Context::EGLES2Context]Surface size is (960, 540)
+[22:57:25.455] M [COCOSUI] Succeed to init share group context 0xaea03b80
+[22:57:25.455] L [COCOSUI] EGLES2Context::SetCurrent: 0xaea03b80
+[22:57:25.456] M [COCOSUI] -----------------------------------------------------------
+[22:57:25.456] M [COCOSUI] Driver: OpenGLES2
+[22:57:25.456] M [COCOSUI] Description: Adreno (TM) 540
+[22:57:25.457] M [COCOSUI] Version: OpenGL ES 3.1
+[22:57:25.457] M [COCOSUI] Vendor: Qualcomm
+[22:57:25.457] M [COCOSUI] Width: 960, Height: 540, BitDepth: 32
+[22:57:25.458] M [COCOSUI] -----------------------------------------------------------
+[22:57:25.458] M [COCOSUI] Adreno (TM) 540
+[22:57:25.464] M [COCOSUI] Try to compile shader: 
+[22:57:25.467] M [COCOSUI] Try to compile shader: 
+[22:57:25.468] M [COCOSUI] Try to compile shader: 
+[22:57:25.469] M [COCOSUI] Try to compile shader: 
+[22:57:25.470] M [COCOSUI] Try to compile shader: 
+[22:57:25.471] M [COCOSUI] Try to compile shader: 
+[22:57:25.472] M [COCOSUI] Try to compile shader: 
+[22:57:25.474] M [COCOSUI] Try to compile shader: 
+[22:57:25.475] M [COCOSUI] Try to compile shader: 
+[22:57:25.476] M [COCOSUI] Try to compile shader: 
+[22:57:25.477] M [COCOSUI] Try to compile shader: 
+[22:57:25.478] M [COCOSUI] Try to compile shader: 
+[22:57:25.479] M [COCOSUI] Try to compile shader: 
+[22:57:25.481] M [COCOSUI] Try to compile shader: 
+[22:57:25.482] M [COCOSUI] Try to compile shader: 
+[22:57:25.483] M [COCOSUI] Try to compile shader: 
+[22:57:25.484] M [COCOSUI] Try to compile shader: 
+[22:57:25.485] M [COCOSUI] Try to compile shader: 
+[22:57:25.486] M [COCOSUI] Try to compile shader: 
+[22:57:25.489] M [COCOSUI] Try to compile shader: 
+[22:57:25.490] M [COCOSUI] Try to compile shader: 
+[22:57:25.491] M [COCOSUI] Try to compile shader: 
+[22:57:25.492] M [COCOSUI] Try to compile shader: 
+[22:57:25.493] M [COCOSUI] Try to compile shader: 
+[22:57:25.493] M [COCOSUI] Try to compile shader: 
+WARNING ***************************************************************************
+[22:57:26.156] M [COCOSUI] [WARNING] g_config cache_auto_load 1
+WARNING ***************************************************************************
+[22:57:26.158] M [COCOSUI] [WARNING] load cache_identity file error shader/effect_cache/cache_identity
+[22:57:26.755] M [COCOSUI] Set render mode: 960 540 32 1 0
+[22:57:26.788] M [COCOSUI] Try to compile shader: shader\only1texture_mirror_gl.vs
+[22:57:26.793] M [COCOSUI] Try to compile shader: shader\only1texture_mirror_gl.ps
+[22:57:26.811] M [COCOSUI] create effect shader/only1texture_mirror.fx:TShader *** time: 50.24 ms ***
+[22:57:26.826] M [COCOSUI] FT_New_Face /system/fonts/DroidSansFallback.ttf
+[22:57:26.831] M [COCOSUI] FT_New_Face /system/fonts/AndroidClock.ttf
+[22:57:26.836] M [COCOSUI] FT_New_Face /system/fonts/AndroidClock_Highlight.ttf
+[22:57:26.838] M [COCOSUI] FT_New_Face /system/fonts/AndroidClock_Solid.ttf
+[22:57:26.839] M [COCOSUI] FT_New_Face /system/fonts/CarroisGothicSC-Regular.ttf
+[22:57:26.842] M [COCOSUI] FT_New_Face /system/fonts/Clockopia.ttf
+[22:57:26.843] M [COCOSUI] FT_New_Face /system/fonts/ComingSoon.ttf
+[22:57:26.844] M [COCOSUI] FT_New_Face /system/fonts/CutiveMono.ttf
+[22:57:26.846] M [COCOSUI] FT_New_Face /system/fonts/DancingScript-Bold.ttf
+[22:57:26.849] M [COCOSUI] FT_New_Face /system/fonts/DancingScript-Regular.ttf
+[22:57:26.851] M [COCOSUI] FT_New_Face /system/fonts/DroidSans-Bold.ttf
+[22:57:26.853] M [COCOSUI] FT_New_Face /system/fonts/DroidSans.ttf
+[22:57:26.854] M [COCOSUI] FT_New_Face /system/fonts/DroidSansFallback.ttf
+[22:57:26.855] M [COCOSUI] FT_New_Face /system/fonts/DroidSansMono.ttf
+[22:57:26.857] M [COCOSUI] FT_New_Face /system/fonts/MTLmr3m.ttf
+[22:57:26.859] M [COCOSUI] FT_New_Face /system/fonts/NanumGothic.ttf
+[22:57:26.861] M [COCOSUI] FT_New_Face /system/fonts/NotoColorEmoji.ttf
+[22:57:26.862] M [COCOSUI] FT_New_Face /system/fonts/NotoNaskh-Bold.ttf
+[22:57:26.864] M [COCOSUI] FT_New_Face /system/fonts/NotoNaskh-Regular.ttf
+[22:57:26.866] M [COCOSUI] FT_New_Face /system/fonts/NotoNaskhUI-Bold.ttf
+[22:57:26.867] M [COCOSUI] FT_New_Face /system/fonts/NotoNaskhUI-Regular.ttf
+[22:57:26.869] M [COCOSUI] FT_New_Face /system/fonts/NotoSansArmenian-Bold.ttf
+[22:57:26.870] M [COCOSUI] FT_New_Face /system/fonts/NotoSansArmenian-Regular.ttf
+[22:57:26.872] M [COCOSUI] FT_New_Face /system/fonts/NotoSansBengali-Bold.ttf
+[22:57:26.873] M [COCOSUI] FT_New_Face /system/fonts/NotoSansBengali-Regular.ttf
+[22:57:26.875] M [COCOSUI] FT_New_Face /system/fonts/NotoSansBengaliUI-Bold.ttf
+[22:57:26.876] M [COCOSUI] FT_New_Face /system/fonts/NotoSansBengaliUI-Regular.ttf
+[22:57:26.877] M [COCOSUI] FT_New_Face /system/fonts/NotoSansDevanagari-Bold.ttf
+[22:57:26.878] M [COCOSUI] FT_New_Face /system/fonts/NotoSansDevanagari-Regular.ttf
+[22:57:26.880] M [COCOSUI] FT_New_Face /system/fonts/NotoSansDevanagariUI-Bold.ttf
+[22:57:26.881] M [COCOSUI] FT_New_Face /system/fonts/NotoSansDevanagariUI-Regular.ttf
+[22:57:26.883] M [COCOSUI] FT_New_Face /system/fonts/NotoSansEthiopic-Bold.ttf
+[22:57:26.884] M [COCOSUI] FT_New_Face /system/fonts/NotoSansEthiopic-Regular.ttf
+[22:57:26.885] M [COCOSUI] FT_New_Face /system/fonts/NotoSansGeorgian-Bold.ttf
+[22:57:26.886] M [COCOSUI] FT_New_Face /system/fonts/NotoSansGeorgian-Regular.ttf
+[22:57:26.888] M [COCOSUI] FT_New_Face /system/fonts/NotoSansHebrew-Bold.ttf
+[22:57:26.888] M [COCOSUI] FT_New_Face /system/fonts/NotoSansHebrew-Regular.ttf
+[22:57:26.889] M [COCOSUI] FT_New_Face /system/fonts/NotoSansKannada-Bold.ttf
+[22:57:26.890] M [COCOSUI] FT_New_Face /system/fonts/NotoSansKannada-Regular.ttf
+[22:57:26.892] M [COCOSUI] FT_New_Face /system/fonts/NotoSansKannadaUI-Bold.ttf
+[22:57:26.893] M [COCOSUI] FT_New_Face /system/fonts/NotoSansKannadaUI-Regular.ttf
+[22:57:26.905] M [COCOSUI] FT_New_Face /system/fonts/NotoSansKhmer-Bold.ttf
+[22:57:26.908] M [COCOSUI] FT_New_Face /system/fonts/NotoSansKhmer-Regular.ttf
+[22:57:26.909] M [COCOSUI] FT_New_Face /system/fonts/NotoSansKhmerUI-Bold.ttf
+[22:57:26.909] M [COCOSUI] FT_New_Face /system/fonts/NotoSansKhmerUI-Regular.ttf
+[22:57:26.910] M [COCOSUI] FT_New_Face /system/fonts/NotoSansLao-Bold.ttf
+[22:57:26.911] M [COCOSUI] FT_New_Face /system/fonts/NotoSansLao-Regular.ttf
+[22:57:26.912] M [COCOSUI] FT_New_Face /system/fonts/NotoSansLaoUI-Bold.ttf
+[22:57:26.913] M [COCOSUI] FT_New_Face /system/fonts/NotoSansLaoUI-Regular.ttf
+[22:57:26.914] M [COCOSUI] FT_New_Face /system/fonts/NotoSansMalayalam-Bold.ttf
+[22:57:26.914] M [COCOSUI] FT_New_Face /system/fonts/NotoSansMalayalam-Regular.ttf
+[22:57:26.915] M [COCOSUI] FT_New_Face /system/fonts/NotoSansMalayalamUI-Bold.ttf
+[22:57:26.916] M [COCOSUI] FT_New_Face /system/fonts/NotoSansMalayalamUI-Regular.ttf
+[22:57:26.917] M [COCOSUI] FT_New_Face /system/fonts/NotoSansMyanmar-Bold.ttf
+[22:57:26.918] M [COCOSUI] FT_New_Face /system/fonts/NotoSansMyanmar-Regular.ttf
+[22:57:26.919] M [COCOSUI] FT_New_Face /system/fonts/NotoSansMyanmarUI-Bold.ttf
+[22:57:26.919] M [COCOSUI] FT_New_Face /system/fonts/NotoSansMyanmarUI-Regular.ttf
+[22:57:26.920] M [COCOSUI] FT_New_Face /system/fonts/NotoSansSymbols-Regular-Subsetted.ttf
+[22:57:26.921] M [COCOSUI] FT_New_Face /system/fonts/NotoSansTamil-Bold.ttf
+[22:57:26.922] M [COCOSUI] FT_New_Face /system/fonts/NotoSansTamil-Regular.ttf
+[22:57:26.922] M [COCOSUI] FT_New_Face /system/fonts/NotoSansTamilUI-Bold.ttf
+[22:57:26.922] M [COCOSUI] FT_New_Face /system/fonts/NotoSansTamilUI-Regular.ttf
+[22:57:26.923] M [COCOSUI] FT_New_Face /system/fonts/NotoSansTelugu-Bold.ttf
+[22:57:26.923] M [COCOSUI] FT_New_Face /system/fonts/NotoSansTelugu-Regular.ttf
+[22:57:26.924] M [COCOSUI] FT_New_Face /system/fonts/NotoSansTeluguUI-Bold.ttf
+[22:57:26.924] M [COCOSUI] FT_New_Face /system/fonts/NotoSansTeluguUI-Regular.ttf
+[22:57:26.925] M [COCOSUI] FT_New_Face /system/fonts/NotoSansThai-Bold.ttf
+[22:57:26.926] M [COCOSUI] FT_New_Face /system/fonts/NotoSansThai-Regular.ttf
+[22:57:26.926] M [COCOSUI] FT_New_Face /system/fonts/NotoSansThaiUI-Bold.ttf
+[22:57:26.926] M [COCOSUI] FT_New_Face /system/fonts/NotoSansThaiUI-Regular.ttf
+[22:57:26.927] M [COCOSUI] FT_New_Face /system/fonts/NotoSerif-Bold.ttf
+[22:57:26.928] M [COCOSUI] FT_New_Face /system/fonts/NotoSerif-BoldItalic.ttf
+[22:57:26.929] M [COCOSUI] FT_New_Face /system/fonts/NotoSerif-Italic.ttf
+[22:57:26.930] M [COCOSUI] FT_New_Face /system/fonts/NotoSerif-Regular.ttf
+[22:57:26.930] M [COCOSUI] FT_New_Face /system/fonts/Roboto-Black.ttf
+[22:57:26.931] M [COCOSUI] FT_New_Face /system/fonts/Roboto-BlackItalic.ttf
+[22:57:26.932] M [COCOSUI] FT_New_Face /system/fonts/Roboto-Bold.ttf
+[22:57:26.932] M [COCOSUI] FT_New_Face /system/fonts/Roboto-BoldItalic.ttf
+[22:57:26.932] M [COCOSUI] FT_New_Face /system/fonts/Roboto-Italic.ttf
+[22:57:26.933] M [COCOSUI] FT_New_Face /system/fonts/Roboto-Light.ttf
+[22:57:26.934] M [COCOSUI] FT_New_Face /system/fonts/Roboto-LightItalic.ttf
+[22:57:26.937] M [COCOSUI] FT_New_Face /system/fonts/Roboto-Medium.ttf
+[22:57:26.937] M [COCOSUI] FT_New_Face /system/fonts/Roboto-MediumItalic.ttf
+[22:57:26.939] M [COCOSUI] FT_New_Face /system/fonts/Roboto-Regular.ttf
+[22:57:26.939] M [COCOSUI] FT_New_Face /system/fonts/Roboto-Thin.ttf
+[22:57:26.940] M [COCOSUI] FT_New_Face /system/fonts/Roboto-ThinItalic.ttf
+[22:57:26.940] M [COCOSUI] FT_New_Face /system/fonts/RobotoCondensed-Bold.ttf
+[22:57:26.942] M [COCOSUI] FT_New_Face /system/fonts/RobotoCondensed-BoldItalic.ttf
+[22:57:26.943] M [COCOSUI] FT_New_Face /system/fonts/RobotoCondensed-Italic.ttf
+[22:57:26.945] M [COCOSUI] FT_New_Face /system/fonts/RobotoCondensed-Light.ttf
+[22:57:26.945] M [COCOSUI] FT_New_Face /system/fonts/RobotoCondensed-LightItalic.ttf
+[22:57:26.946] M [COCOSUI] FT_New_Face /system/fonts/RobotoCondensed-Regular.ttf
+[22:57:26.948] M [COCOSUI] FT_New_Face /system/fonts/DroidSansFallback.ttf
+[22:57:26.977] M [COCOSUI] Try to compile shader: common\pipeline\bloom_downsample_gl.vs
+[22:57:26.981] M [COCOSUI] Try to compile shader: common\pipeline\bloom_downsample_gl.ps
+[22:57:27.003] M [COCOSUI] create effect common\pipeline\bloom_downsample.nfx:BloomDownSample *** time: 31.26 ms ***
+[22:57:27.012] M [COCOSUI] Try to compile shader: common\pipeline\bloom_bright_gl.vs
+[22:57:27.014] M [COCOSUI] Try to compile shader: common\pipeline\bloom_bright_gl.ps
+[22:57:27.031] M [COCOSUI] create effect common\pipeline\bloom_bright.nfx:BloomBright *** time: 27.28 ms ***
+[22:57:27.037] M [COCOSUI] Try to compile shader: common\pipeline\bloom_blur_h_gl.vs
+[22:57:27.040] M [COCOSUI] Try to compile shader: common\pipeline\bloom_blur_h_gl.ps
+[22:57:27.056] M [COCOSUI] create effect common\pipeline\bloom_blur_h.nfx:BloomBlurH *** time: 25.45 ms ***
+[22:57:27.064] M [COCOSUI] Try to compile shader: common\pipeline\bloom_blur_v_and_composite_gl.vs
+[22:57:27.067] M [COCOSUI] Try to compile shader: common\pipeline\bloom_blur_v_and_composite_gl.ps
+[22:57:27.088] M [COCOSUI] create effect common\pipeline\bloom_blur_v_and_composite.nfx:BloomBlurVAndComposite *** time: 31.18 ms ***
+[22:57:27.094] M [COCOSUI] Try to compile shader: common\pipeline\distortion_gl.vs
+[22:57:27.097] M [COCOSUI] Try to compile shader: common\pipeline\distortion_gl.ps
+[22:57:27.108] M [COCOSUI] create effect common\pipeline\distortion.fx:Distortion *** time: 18.14 ms ***
+[22:57:27.115] M [COCOSUI] Try to compile shader: common\pipeline\blur_horz_gl.vs
+[22:57:27.119] M [COCOSUI] Try to compile shader: common\pipeline\blur_horz_gl.ps
+[22:57:27.135] M [COCOSUI] create effect common\pipeline\blur_horz.fx:HorzBlur *** time: 24.48 ms ***
+[22:57:27.140] M [COCOSUI] Try to compile shader: common\pipeline\blur_vert_gl.vs
+[22:57:27.143] M [COCOSUI] Try to compile shader: common\pipeline\blur_vert_gl.ps
+[22:57:27.159] M [COCOSUI] create effect common\pipeline\blur_vert.fx:VertBlur *** time: 23.85 ms ***
+[22:57:27.164] M [COCOSUI] Try to compile shader: common\pipeline\gray_gl.vs
+[22:57:27.166] M [COCOSUI] Try to compile shader: common\pipeline\gray_gl.ps
+[22:57:27.178] M [COCOSUI] create effect common\pipeline\gray.fx:Gray *** time: 16.64 ms ***
+[22:57:27.185] M [COCOSUI] Try to compile shader: common\pipeline\radial_blur_gl.vs
+[22:57:27.188] M [COCOSUI] Try to compile shader: common\pipeline\radial_blur_gl.ps
+[22:57:27.205] M [COCOSUI] create effect common\pipeline\radial_blur.fx:TShader *** time: 25.51 ms ***
+[22:57:27.216] M [COCOSUI] Try to compile shader: common\pipeline\wave_gl.vs
+[22:57:27.218] M [COCOSUI] Try to compile shader: common\pipeline\wave_gl.ps
+WARNING ***************************************************************************
+[22:57:27.255] M [COCOSUI] [WARNING] Device do not support texture common\pipeline\dark_corner.dds format DXT5, try to convert it to A8R8G8B8
+[22:57:27.265] M [COCOSUI] create effect common\pipeline\wave.fx:Distortion *** time: 57.77 ms ***
+[22:57:27.271] M [COCOSUI] Try to compile shader: common\pipeline\dark_corner_gl.vs
+[22:57:27.274] M [COCOSUI] Try to compile shader: common\pipeline\dark_corner_gl.ps
+[22:57:27.290] M [COCOSUI] create effect common\pipeline\dark_corner.fx:DarkCorner *** time: 22.88 ms ***
+[22:57:27.300] M [COCOSUI] Try to compile shader: common\pipeline\screen_filter_gl.vs
+[22:57:27.304] M [COCOSUI] Try to compile shader: common\pipeline\screen_filter_gl.ps
+[22:57:27.314] M [COCOSUI] create effect common\pipeline\screen_filter.fx:ScreenFilter *** time: 22.68 ms ***
+[22:57:27.320] M [COCOSUI] Try to compile shader: common\pipeline\smooth_outline_gl.vs
+[22:57:27.324] M [COCOSUI] Try to compile shader: common\pipeline\smooth_outline_gl.ps
+[22:57:27.338] M [COCOSUI] Try to compile shader: common\pipeline\smooth_outline_gl.vs
+[22:57:27.339] M [COCOSUI] Try to compile shader: common\pipeline\smooth_outline_gl.ps
+[22:57:27.353] M [COCOSUI] Try to compile shader: common\pipeline\smooth_outline_gl.vs
+[22:57:27.354] M [COCOSUI] Try to compile shader: common\pipeline\smooth_outline_gl.ps
+[22:57:27.370] M [COCOSUI] create effect common\pipeline\smooth_outline.fx:VerBlur *** time: 55.06 ms ***
+[22:57:27.378] M [COCOSUI] Try to compile shader: common\pipeline\color_grading_gl.vs
+[22:57:27.380] M [COCOSUI] Try to compile shader: common\pipeline\color_grading_gl.ps
+[22:57:27.406] M [COCOSUI] create effect common\pipeline\color_grading.fx:TShader *** time: 32.57 ms ***
+[22:57:27.414] M [COCOSUI] Try to compile shader: common\pipeline\shadow_of_war_gl.vs
+[22:57:27.416] M [COCOSUI] Try to compile shader: common\pipeline\shadow_of_war_gl.ps
+[22:57:27.432] M [COCOSUI] create effect common\pipeline\shadow_of_war.fx:TShader *** time: 23.19 ms ***
+[22:57:27.437] M [COCOSUI] Try to compile shader: common\pipeline\downsample_gl.vs
+[22:57:27.439] M [COCOSUI] Try to compile shader: common\pipeline\downsample_gl.ps
+[22:57:27.449] M [COCOSUI] create effect common\pipeline\downsample.fx:TShader *** time: 15.94 ms ***
+[22:57:27.457] M [COCOSUI] Try to compile shader: common\pipeline\oil_painting_gl.vs
+[22:57:27.461] M [COCOSUI] Try to compile shader: common\pipeline\oil_painting_gl.ps
+[22:57:27.489] M [COCOSUI] create effect common\pipeline\oil_painting.fx:TShader *** time: 39.74 ms ***
+[22:57:27.493] M [COCOSUI] Try to compile shader: common\pipeline\dither_gl.vs
+[22:57:27.496] M [COCOSUI] Try to compile shader: common\pipeline\dither_gl.ps
+[22:57:27.532] M [COCOSUI] create effect common\pipeline\dither.fx:TShader *** time: 41.68 ms ***
+[22:57:27.546] M [COCOSUI] Audio::Init - getDSPBufferSize: buffer_length = 512, num_buffers = 4
+[22:57:27.547] M [COCOSUI] Audio::Init - FMOD_INITFLAGS: 0
+[22:57:27.562] M [COCOSUI] is_bluetooth_headset_connected: 0
+[22:57:27.608] M [COCOSUI] Init audio system, FMOD version 00044457.
+[22:57:27.613] M [COCOSUI] Try to compile shader: common\shader\common_gl.vs
+[22:57:27.615] M [COCOSUI] Try to compile shader: common\shader\common_gl.ps
+[22:57:27.628] M [COCOSUI] create effect <ModelNormalTech>:TNoShader *** time: 19.17 ms ***
+[22:57:27.639] M [COCOSUI] Try to compile shader: common\shader\blendadd_gl.vs
+[22:57:27.642] M [COCOSUI] Try to compile shader: common\shader\blendadd_gl.ps
+[22:57:27.659] M [COCOSUI] create effect common/shader/blendadd.fx:TShader *** time: 26.66 ms ***
+[22:57:27.665] M [COCOSUI] Try to compile shader: common\shader\sprite_alphablend_gl.vs
+[22:57:27.667] M [COCOSUI] Try to compile shader: common\shader\sprite_alphablend_gl.ps
+[22:57:27.682] M [COCOSUI] create effect common\shader\sprite_alphablend.fx:TShader *** time: 22.86 ms ***
+[22:57:27.690] M [COCOSUI] Try to compile shader: common\shader\sprite_vegetation_gl.vs
+[22:57:27.692] M [COCOSUI] Try to compile shader: common\shader\sprite_vegetation_gl.ps
+[22:57:27.711] M [COCOSUI] create effect common\shader\sprite_vegetation.fx:TShader *** time: 28.43 ms ***
+[22:57:27.716] M [COCOSUI] pixel decal enable: false
+[22:57:28.024] M [COCOSUI] NewType world.track: 0x9d2a76a0
+[22:57:28.024] M [COCOSUI] NewType world.space_object: 0x9d2a7780
+[22:57:28.024] M [COCOSUI] NewType world.visibleobject: 0x9d2a7860
+[22:57:28.024] M [COCOSUI] NewType world.sfx: 0x9d2a7940
+[22:57:28.025] M [COCOSUI] NewType world.model: 0x9d2a7a20
+[22:57:28.025] M [COCOSUI] NewType world.primitives: 0x9d2a7b00
+[22:57:28.025] M [COCOSUI] NewType world.textobject: 0x9d2a7be0
+[22:57:28.026] M [COCOSUI] NewType world.simuiobject: 0x9d2a7cc0
+[22:57:28.026] M [COCOSUI] NewType world.simsprite: 0x9d2a7da0
+[22:57:28.026] M [COCOSUI] NewType world.camera: 0x9d2a7e80
+[22:57:28.026] M [COCOSUI] NewType world.volumefog: 0x9d2a7f60
+[22:57:28.026] M [COCOSUI] NewType world.decal: 0x9d2a8040
+[22:57:28.027] M [COCOSUI] NewType world.light: 0x9d2a8120
+[22:57:28.027] M [COCOSUI] NewType world.anim_ctrl: 0x9d2a8200
+[22:57:28.027] M [COCOSUI] NewType world.scene: 0x9d2a82e0
+[22:57:28.028] M [COCOSUI] NewType world.ikbone: 0x9d2a83c0
+[22:57:28.028] M [COCOSUI] NewType world.floatage: 0x9d2a84a0
+[22:57:28.028] M [COCOSUI] NewType terrain.land: 0x9d2a8580
+[22:57:28.048] M [COCOSUI] NewType detour.scene_detour: 0x9d2a8660
+[22:57:28.053] M [COCOSUI] NewType collision.scene_col: 0x9d2a8740
+[22:57:28.054] M [COCOSUI] NewType collision.col_object: 0x9d2a8820
+[22:57:28.054] M [COCOSUI] NewType collision.vehicle: 0x9d2a8900
+[22:57:28.096] M [COCOSUI] 
+{
+	gl.supports_vertex_array_object: true
+	gl.supports_BGRA8888: false
+	gl.supports_ATITC: false
+	gl.supports_S3TC: false
+	cocos2d.x.version: cocos2d-x 3.2
+	gl.supports_discard_framebuffer: false
+	cocos2d.x.compiled_with_profiler: false
+	gl.supports_PVRTC: false
+	cocos2d.x.build_type: RELEASE
+	gl.renderer: Adreno (TM) 540
+	gl.supports_ETC1: true
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.version: OpenGL ES 3.1
+	gl.supports_NPOT: true
+	gl.max_texture_units: 16
+	gl.vendor: Qualcomm
+	gl.max_texture_size: 16384
+}
+
+[22:57:28.571] M [COCOSUI] Call script init.init().
+[22:57:28.572] M [COCOSUI] Set render mode: 960 540 32 1 0
+[22:57:28.572] M [COCOSUI] Initialization completed successfully!
+[22:57:28.572] M [COCOSUI] 
+[22:57:28.572] M [COCOSUI] Call script init.start().
+[22:57:29.387] M   <SCRIPT> loaded patch json
+[22:57:30.488] M   <SCRIPT> [2019 09-24 22:57:30] [INFO] COCOSUI VERSION:3.2
+[22:57:31.641] M   <SCRIPT> [2019 09-24 22:57:31] [INFO] patch: no need to update patch.
+WARNING ***************************************************************************
+[22:57:44.143] M [COCOSUI] [WARNING] fmod wave bank ui is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.143] M [COCOSUI] [WARNING] fmod wave bank amb_skill_patch_1 is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.180] M [COCOSUI] [WARNING] fmod wave bank zhujue_vo_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.181] M [COCOSUI] [WARNING] fmod wave bank fish_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.181] M [COCOSUI] [WARNING] fmod wave bank zhujue_jiemian_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.182] M [COCOSUI] [WARNING] fmod wave bank fight_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.182] M [COCOSUI] [WARNING] fmod wave bank ui_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.183] M [COCOSUI] [WARNING] fmod wave bank dantiao_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.183] M [COCOSUI] [WARNING] fmod wave bank xinnian_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.183] M [COCOSUI] [WARNING] fmod wave bank skill_slzp_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.184] M [COCOSUI] [WARNING] fmod wave bank zhujue_hit_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.184] M [COCOSUI] [WARNING] fmod wave bank 3329_kanteleila_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.184] M [COCOSUI] [WARNING] fmod wave bank chuangzhangxiaobing_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.185] M [COCOSUI] [WARNING] fmod wave bank ui_scene_battle_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.185] M [COCOSUI] [WARNING] fmod wave bank 3330_xilahuo_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.186] M [COCOSUI] [WARNING] fmod wave bank animal_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.186] M [COCOSUI] [WARNING] fmod wave bank 3331_haiyangnvwang_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.186] M [COCOSUI] [WARNING] fmod wave bank haiguai_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.187] M [COCOSUI] [WARNING] fmod wave bank animal_2_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.187] M [COCOSUI] [WARNING] fmod wave bank 3332_shenshengqianfa_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.187] M [COCOSUI] [WARNING] fmod wave bank 3333_shuiqiu_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.188] M [COCOSUI] [WARNING] fmod wave bank 3334_jiwalianshe_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.188] M [COCOSUI] [WARNING] fmod wave bank 3335_sanjiaoxing is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.188] M [COCOSUI] [WARNING] fmod wave bank 3336_leimingxuewu_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.189] M [COCOSUI] [WARNING] fmod wave bank tiaojiu_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.189] M [COCOSUI] [WARNING] fmod wave bank 3337_riyuelunzhuan_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.189] M [COCOSUI] [WARNING] fmod wave bank 3338_leimingsheji is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.190] M [COCOSUI] [WARNING] fmod wave bank g_4401_liehuo_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.190] M [COCOSUI] [WARNING] fmod wave bank s_3339_jisizhiguang_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.191] M [COCOSUI] [WARNING] fmod wave bank g_0001_miwu_bingci_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.191] M [COCOSUI] [WARNING] fmod wave bank g_0002_miwu_shenpan_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.191] M [COCOSUI] [WARNING] fmod wave bank g_0003_miwu_zhanbu_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.191] M [COCOSUI] [WARNING] fmod wave bank fire_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.191] M [COCOSUI] [WARNING] fmod wave bank zhujue_taozhuang_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.192] M [COCOSUI] [WARNING] fmod wave bank s_3340_yingyuejia_zong_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.192] M [COCOSUI] [WARNING] fmod wave bank g_0004_taitanyizhi_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.192] M [COCOSUI] [WARNING] fmod wave bank shexue_fx_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.192] M [COCOSUI] [WARNING] fmod wave bank shuiliandong_amb_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.192] M [COCOSUI] [WARNING] fmod wave bank stone_door_xin is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.193] M [COCOSUI] [WARNING] fmod wave bank sfx_ui_180531 is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.193] M [COCOSUI] [WARNING] fmod wave bank s_3341_shiren_180619 is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.193] M [COCOSUI] [WARNING] fmod wave bank sfx_animal_180628 is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.194] M [COCOSUI] [WARNING] fmod wave bank sfx_foot_180720 is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.194] M [COCOSUI] [WARNING] fmod wave bank sfx_8yue_180727 is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.194] M [COCOSUI] [WARNING] fmod wave bank sfx_9yue_yinyoushiren is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.194] M [COCOSUI] [WARNING] fmod wave bank sfx_10yue_ludizhan is not using stream from disk! Current type 2
+WARNING ***************************************************************************
+[22:57:44.195] M [COCOSUI] [WARNING] fmod wave bank sfx_11yue is not using stream from disk! Current type 2
+[22:57:44.819] M   <SCRIPT> dev: LGM-V300K
+[22:57:44.829] M   <SCRIPT> [ylc] None
+[22:57:44.831] M   <SCRIPT> [ylc] 960.0 540.0
+[22:57:44.841] M   <SCRIPT> [ylc] 1137.77783203 640.0
+[22:57:44.842] M   <SCRIPT> [ylc] 1137.77777778 640.0
+[22:57:44.940] M [COCOSUI] FT_New_Memory_Face Typo_JeongJoProB.ttf
+[22:57:44.940] M [COCOSUI] Release FONT memory 95c00000
+[22:57:44.992] M   <SCRIPT> ver: 2.0.0
+[22:57:45.013] M   <SCRIPT> [2019 09-24 22:57:45] [DEBUG] [INFO] channel initialized
+WARNING ***************************************************************************
+[22:57:45.052] M [COCOSUI] [WARNING] Audio::SetGroupVolume: [FMOD] (89) The requested event, event group, event category or event property could not be found. 
+[22:57:45.120] M   <SCRIPT> ver: 2.0.0
+[22:57:45.121] M   <SCRIPT> ver: 2.0.0
+[22:57:45.201] M   <SCRIPT> [INFO] Name ready.
+[22:57:45.217] M   <SCRIPT> [INFO] Intercept ready.
+[22:57:45.226] M   <SCRIPT> [INFO] Replace ready.
+[22:57:45.645] M   <SCRIPT> ver: 2.0.0
+[22:57:45.645] M   <SCRIPT> ver: 2.0.0
+[22:57:45.746] M   <SCRIPT> [2019 09-24 22:57:45] [INFO] push init
+[22:57:45.854] M   <SCRIPT> [2019 09-24 22:57:45] [INFO] share init
+[22:57:46.211] M [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:57:46.223] M [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:57:46.286] M [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 104.44 ms ***
+[22:57:46.290] M [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:57:46.294] M [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:57:46.323] M [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 36.17 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_SELF_BRIGHT FALSE 
+		#define AT_NIGHT FALSE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:46.336] M [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:57:46.338] M [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:57:46.367] M [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 35.45 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE FALSE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_SELF_BRIGHT FALSE 
+		#define AT_NIGHT FALSE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:46.537] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:46.541] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:46.590] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 60.09 ms ***
+[22:57:46.599] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:46.601] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:46.652] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 58.77 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE FALSE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS TRUE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:46.733] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:46.735] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:46.783] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 56.91 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE FALSE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS TRUE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:46.790] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:46.792] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:46.841] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 57.70 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE FALSE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS TRUE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE TRUE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:46.893] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:46.895] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:46.947] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 63.35 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE FALSE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS TRUE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE TRUE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:47.012] M [COCOSUI] Try to compile shader: shader\road_gl.vs
+[22:57:47.022] M [COCOSUI] Try to compile shader: shader\road_gl.ps
+[22:57:47.064] M [COCOSUI] create effect shader\road.nfx:RoadTech *** time: 74.20 ms ***
+[22:57:47.072] M   <SCRIPT> [2019 09-24 22:57:47] [INFO] on_register_push_service fuzgOjsNbeQ:APA91bECssuaGWzx9gxYtblrk8ogsQH46PeKcpz6B8Flv0q48q0U08rqqJC7meP9ZdpTsbSibxq8Zzr_OpO9gsGNsQg5kw1-bPJVafW1K8wZ5HkJe-Q_WF74jr_FGdZnJwpJGfOzqdzd,fcm,com.netease.dhhzlggkr None
+[22:57:47.084] M   <SCRIPT> in init drpf available, True
+[22:57:47.111] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:47.114] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:47.160] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 53.02 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE FALSE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS TRUE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:47.166] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:47.168] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:47.216] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 54.58 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE FALSE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS TRUE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE TRUE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:47.221] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:47.223] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:47.269] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 52.17 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE FALSE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS TRUE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:47.361] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.vs
+[22:57:47.365] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.ps
+[22:57:47.392] L [COCOSUI] create effect shader\common_ship_hero.fx:TShader *** time: 37.63 ms ***
+[22:57:47.397] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.vs
+[22:57:47.399] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.ps
+[22:57:47.433] L [COCOSUI] create effect shader\common_ship_hero.fx:TShader *** time: 39.24 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_MATCAP TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:57:47.498] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.vs
+[22:57:47.501] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.ps
+[22:57:47.536] L [COCOSUI] create effect shader\common_ship_hero.fx:TShader *** time: 42.44 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_MATCAP TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:57:47.543] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.vs
+[22:57:47.545] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.ps
+[22:57:47.586] L [COCOSUI] create effect shader\common_ship_hero.fx:TShader *** time: 48.98 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_MATCAP TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:57:47.592] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.vs
+[22:57:47.594] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.ps
+[22:57:47.636] L [COCOSUI] create effect shader\common_ship_hero.fx:TShader *** time: 48.47 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_MATCAP TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:57:47.686] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.vs
+[22:57:47.689] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.ps
+[22:57:47.721] L [COCOSUI] create effect shader\dissolve_void.fx:TShader *** time: 39.87 ms ***
+[22:57:47.726] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.vs
+[22:57:47.728] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.ps
+[22:57:47.750] L [COCOSUI] create effect shader\dissolve_void.fx:TShader *** time: 28.21 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define SECOND_ENABLE FALSE 
+		#define DISSOLVE_ENABLE FALSE 
+		#define FRESNEL_ENABLE TRUE 
+		#define EXPAND_ENABLE FALSE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP FALSE 
+[22:57:47.760] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.vs
+[22:57:47.763] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.ps
+[22:57:47.786] L [COCOSUI] create effect shader\dissolve_void.fx:TShader *** time: 28.69 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define SECOND_ENABLE FALSE 
+		#define DISSOLVE_ENABLE FALSE 
+		#define FRESNEL_ENABLE TRUE 
+		#define EXPAND_ENABLE FALSE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP FALSE 
+[22:57:47.794] L [COCOSUI] Try to compile shader: common\shader\blendadd_gl.vs
+[22:57:47.796] L [COCOSUI] Try to compile shader: common\shader\blendadd_gl.ps
+[22:57:47.816] L [COCOSUI] create effect common/shader/blendadd.fx:TShader *** time: 23.73 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_NONE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define TEX_COUNT TEX_COUNT_1 
+		#define VCOLOR_MODE VCOLOR_MODE_MUL 
+		#define MUL_RATIO MUL_RATIO_1 
+		#define HSV_CHANGE_HUE TRUE 
+[22:57:47.835] L [COCOSUI] Try to compile shader: shader\mask_range_gl.vs
+[22:57:47.838] L [COCOSUI] Try to compile shader: shader\mask_range_gl.ps
+[22:57:47.857] L [COCOSUI] create effect shader\mask_range.fx:TShader *** time: 24.51 ms ***
+[22:57:47.861] M [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:47.864] M [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:47.915] M [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 58.01 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS TRUE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:47.926] M [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:47.929] M [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:47.978] M [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 56.54 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS TRUE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE TRUE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:47.980] L [COCOSUI] Try to compile shader: shader\attack_area_gl.vs
+[22:57:47.983] L [COCOSUI] Try to compile shader: shader\attack_area_gl.ps
+[22:57:47.997] L [COCOSUI] create effect shader\attack_area.fx:AttackArea *** time: 18.97 ms ***
+[22:57:48.004] M [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:48.007] M [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:48.056] M [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 57.39 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS TRUE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:48.133] L [COCOSUI] Try to compile shader: shader\sun_gl.vs
+[22:57:48.136] L [COCOSUI] Try to compile shader: shader\sun_gl.ps
+[22:57:48.158] L [COCOSUI] create effect shader\sun.fx:TShader *** time: 30.67 ms ***
+[22:57:48.210] L [COCOSUI] Try to compile shader: shader\water_simple_gl.vs
+[22:57:48.215] L [COCOSUI] Try to compile shader: shader\water_simple_gl.ps
+[22:57:48.270] L [COCOSUI] create effect shader\water_simple.fx:TShader *** time: 67.08 ms ***
+[22:57:48.275] L [COCOSUI] Try to compile shader: shader\water_simple_gl.vs
+[22:57:48.279] L [COCOSUI] Try to compile shader: shader\water_simple_gl.ps
+[22:57:48.325] L [COCOSUI] create effect shader\water_simple.fx:TShader *** time: 52.74 ms ***
+		macro:
+		#define NEED_SPECULAR TRUE 
+		#define NEED_DETAIL_NORMAL TRUE 
+		#define NEED_REFLECTION TRUE 
+		#define ENABLE_DEPTH_MAP FALSE 
+		#define NEED_DETAIL_COLOR TRUE 
+		#define VERTEX_WAVE TRUE 
+[22:57:48.348] L [COCOSUI] Try to compile shader: shader\sky_simple_gl.vs
+[22:57:48.351] L [COCOSUI] Try to compile shader: shader\sky_simple_gl.ps
+[22:57:48.422] L [COCOSUI] create effect shader\sky_simple.fx:TShader *** time: 78.79 ms ***
+[22:57:48.427] L [COCOSUI] Try to compile shader: shader\sky_simple_gl.vs
+[22:57:48.432] L [COCOSUI] Try to compile shader: shader\sky_simple_gl.ps
+[22:57:48.459] L [COCOSUI] create effect shader\sky_simple.fx:TShader *** time: 34.67 ms ***
+		macro:
+		#define YINHE_ENABLE TRUE 
+		#define STAR_ENABLE TRUE 
+[22:57:48.486] L [COCOSUI] Try to compile shader: shader\cloud_auto_gl.vs
+[22:57:48.488] L [COCOSUI] Try to compile shader: shader\cloud_auto_gl.ps
+[22:57:48.521] L [COCOSUI] create effect shader\cloud_auto.fx:TShader *** time: 37.10 ms ***
+[22:57:48.534] L [COCOSUI] create effect shader\cloud_auto.fx:TShader *** time: 10.71 ms ***
+		macro:
+[22:57:48.561] L [COCOSUI] Try to compile shader: shader\skyfog_gl.vs
+[22:57:48.563] L [COCOSUI] Try to compile shader: shader\skyfog_gl.ps
+[22:57:48.582] L [COCOSUI] create effect shader\skyfog.fx:TShader *** time: 23.61 ms ***
+[22:57:48.613] L [COCOSUI] Try to compile shader: shader\river_gl.vs
+[22:57:48.616] L [COCOSUI] Try to compile shader: shader\river_gl.ps
+[22:57:48.636] L [COCOSUI] create effect shader\river.fx:TShader *** time: 25.21 ms ***
+[22:57:48.640] L [COCOSUI] Try to compile shader: shader\river_gl.vs
+[22:57:48.642] L [COCOSUI] Try to compile shader: shader\river_gl.ps
+[22:57:48.662] L [COCOSUI] create effect shader\river.fx:TShader *** time: 24.28 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP TRUE 
+[22:57:48.674] L [COCOSUI] Try to compile shader: shader\river_gl.vs
+[22:57:48.675] L [COCOSUI] Try to compile shader: shader\river_gl.ps
+[22:57:48.697] L [COCOSUI] create effect shader\river.fx:TShader *** time: 25.11 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP TRUE 
+[22:57:48.782] L [COCOSUI] Try to compile shader: shader\common_nolight_gl.vs
+[22:57:48.785] L [COCOSUI] Try to compile shader: shader\common_nolight_gl.ps
+[22:57:48.798] L [COCOSUI] create effect shader\common_nolight.fx:TShader *** time: 18.09 ms ***
+[22:57:48.800] L [COCOSUI] Try to compile shader: shader\common_nolight_gl.vs
+[22:57:48.801] L [COCOSUI] Try to compile shader: shader\common_nolight_gl.ps
+[22:57:48.822] L [COCOSUI] create effect shader\common_nolight.fx:TShader *** time: 23.84 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP TRUE 
+[22:57:48.842] L [COCOSUI] Try to compile shader: shader\common_nolight_gl.vs
+[22:57:48.849] L [COCOSUI] Try to compile shader: shader\common_nolight_gl.ps
+[22:57:48.867] L [COCOSUI] create effect shader\common_nolight.fx:TShader *** time: 29.45 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP TRUE 
+[22:57:48.875] L [COCOSUI] Try to compile shader: shader\river_gl.vs
+[22:57:48.876] L [COCOSUI] Try to compile shader: shader\river_gl.ps
+[22:57:48.895] L [COCOSUI] create effect shader\river.fx:TShader *** time: 23.15 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP FALSE 
+[22:57:48.916] L [COCOSUI] Try to compile shader: shader\river_gl.vs
+[22:57:48.917] L [COCOSUI] Try to compile shader: shader\river_gl.ps
+[22:57:48.937] L [COCOSUI] create effect shader\river.fx:TShader *** time: 22.30 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP FALSE 
+[22:57:49.241] L [COCOSUI] Try to compile shader: shader\new_water_shen_gl.vs
+[22:57:49.247] L [COCOSUI] Try to compile shader: shader\new_water_shen_gl.ps
+[22:57:49.324] L [COCOSUI] create effect shader\new_water_shen.fx:TShader *** time: 88.45 ms ***
+[22:57:49.346] L [COCOSUI] create effect shader\new_water_shen.fx:TShader *** time: 20.41 ms ***
+		macro:
+[22:57:49.498] L [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:57:49.500] L [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:57:49.527] L [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 34.77 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_SELF_BRIGHT FALSE 
+		#define AT_NIGHT FALSE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:49.553] L [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:57:49.555] L [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:57:49.581] L [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 29.43 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_SELF_BRIGHT FALSE 
+		#define AT_NIGHT FALSE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:49.594] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.vs
+[22:57:49.597] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.ps
+[22:57:49.631] L [COCOSUI] create effect shader\common_ship_hero.fx:TShader *** time: 39.24 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO FALSE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_MATCAP TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:57:49.748] L [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:57:49.750] L [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:57:49.784] L [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 36.96 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_SELF_BRIGHT FALSE 
+		#define AT_NIGHT FALSE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:50.009] M   <SCRIPT> ....create_sky
+WARNING ***************************************************************************
+[22:57:50.023] M [COCOSUI] [WARNING] [GameThreadBlocking] WaitResTask models\others\sun.gim 7.81 ms
+[22:57:50.027] M [COCOSUI] Try to compile shader: shader\sky_simple_gl.vs
+[22:57:50.028] M [COCOSUI] Try to compile shader: shader\sky_simple_gl.ps
+[22:57:50.049] M [COCOSUI] create effect shader\sky_simple.fx:TShader *** time: 24.68 ms ***
+		macro:
+		#define YINHE_ENABLE FALSE 
+		#define STAR_ENABLE TRUE 
+[22:57:50.062] M [COCOSUI] Try to compile shader: shader\water_simple_gl.vs
+[22:57:50.064] M [COCOSUI] Try to compile shader: shader\water_simple_gl.ps
+[22:57:50.089] M [COCOSUI] create effect shader\water_simple.fx:TShader *** time: 28.65 ms ***
+		macro:
+		#define NEED_SPECULAR FALSE 
+		#define NEED_DETAIL_NORMAL FALSE 
+		#define NEED_REFLECTION FALSE 
+		#define ENABLE_DEPTH_MAP FALSE 
+		#define NEED_DETAIL_COLOR FALSE 
+		#define VERTEX_WAVE FALSE 
+[22:57:50.159] M   <SCRIPT> ver: 2.0.0
+[22:57:50.159] M   <SCRIPT> ver: 2.0.0
+[22:57:50.160] M   <SCRIPT> ver: 2.0.0
+WARNING ***************************************************************************
+[22:57:50.235] M [COCOSUI] [WARNING] no preset camera named camera_login_1 found! return indentity matrix
+WARNING ***************************************************************************
+[22:57:50.236] M [COCOSUI] [WARNING] no preset camera named camera_login_2 found! return indentity matrix
+WARNING ***************************************************************************
+[22:57:50.236] M [COCOSUI] [WARNING] no preset camera named camera_login_2 found! return indentity matrix
+WARNING ***************************************************************************
+[22:57:50.236] M [COCOSUI] [WARNING] no preset camera named camera_login_3 found! return indentity matrix
+WARNING ***************************************************************************
+[22:57:50.237] M [COCOSUI] [WARNING] no preset camera named camera_login_4 found! return indentity matrix
+WARNING ***************************************************************************
+[22:57:50.238] M [COCOSUI] [WARNING] no preset camera named camera_login_5 found! return indentity matrix
+[22:57:50.620] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:50.622] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:50.657] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 39.71 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE FALSE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:50.698] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:50.701] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:50.739] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 44.00 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE FALSE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:50.753] L [COCOSUI] Try to compile shader: shader\common_gl.vs
+[22:57:50.757] L [COCOSUI] Try to compile shader: shader\common_gl.ps
+[22:57:50.779] L [COCOSUI] create effect shader\common.fx:TShader *** time: 30.56 ms ***
+[22:57:50.781] L [COCOSUI] Try to compile shader: shader\common_gl.vs
+[22:57:50.782] L [COCOSUI] Try to compile shader: shader\common_gl.ps
+[22:57:50.800] L [COCOSUI] create effect shader\common.fx:TShader *** time: 20.24 ms ***
+		macro:
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define SEA_DARK_ENABLE FALSE 
+[22:57:50.874] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:50.876] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:50.912] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 41.57 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE FALSE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:50.944] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:50.947] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:50.984] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 43.85 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE FALSE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:51.067] L [COCOSUI] Try to compile shader: shader\dissolve_gl.vs
+[22:57:51.070] L [COCOSUI] Try to compile shader: shader\dissolve_gl.ps
+[22:57:51.094] L [COCOSUI] create effect shader\dissolve.fx:TShader *** time: 31.39 ms ***
+[22:57:51.097] L [COCOSUI] Try to compile shader: shader\dissolve_gl.vs
+[22:57:51.098] L [COCOSUI] Try to compile shader: shader\dissolve_gl.ps
+[22:57:51.120] L [COCOSUI] create effect shader\dissolve.fx:TShader *** time: 25.83 ms ***
+		macro:
+		#define LIT_ENABLE FALSE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define GPU_SKIN_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define SECOND_ENABLE FALSE 
+		#define FRESNEL_ENABLE TRUE 
+		#define DISSOLVE_ENABLE TRUE 
+[22:57:51.141] L [COCOSUI] Try to compile shader: shader\dissolve_gl.vs
+[22:57:51.143] L [COCOSUI] Try to compile shader: shader\dissolve_gl.ps
+[22:57:51.166] L [COCOSUI] create effect shader\dissolve.fx:TShader *** time: 26.35 ms ***
+		macro:
+		#define LIT_ENABLE FALSE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define GPU_SKIN_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define SECOND_ENABLE FALSE 
+		#define FRESNEL_ENABLE TRUE 
+		#define DISSOLVE_ENABLE TRUE 
+[22:57:51.222] L [COCOSUI] Try to compile shader: shader\dissolve_gl.vs
+[22:57:51.224] L [COCOSUI] Try to compile shader: shader\dissolve_gl.ps
+[22:57:51.244] L [COCOSUI] create effect shader\dissolve.fx:TShader *** time: 23.75 ms ***
+		macro:
+		#define LIT_ENABLE FALSE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define GPU_SKIN_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define SECOND_ENABLE FALSE 
+		#define FRESNEL_ENABLE TRUE 
+		#define DISSOLVE_ENABLE FALSE 
+[22:57:51.254] L [COCOSUI] Try to compile shader: shader\dissolve_gl.vs
+[22:57:51.256] L [COCOSUI] Try to compile shader: shader\dissolve_gl.ps
+[22:57:51.280] L [COCOSUI] create effect shader\dissolve.fx:TShader *** time: 28.05 ms ***
+		macro:
+		#define LIT_ENABLE FALSE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define GPU_SKIN_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define SECOND_ENABLE FALSE 
+		#define FRESNEL_ENABLE TRUE 
+		#define DISSOLVE_ENABLE FALSE 
+[22:57:51.616] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.vs
+[22:57:51.618] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.ps
+[22:57:51.643] L [COCOSUI] create effect shader\dissolve_void.fx:TShader *** time: 28.41 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define SECOND_ENABLE FALSE 
+		#define DISSOLVE_ENABLE TRUE 
+		#define FRESNEL_ENABLE TRUE 
+		#define EXPAND_ENABLE FALSE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP FALSE 
+[22:57:51.664] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.vs
+[22:57:51.666] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.ps
+[22:57:51.688] L [COCOSUI] create effect shader\dissolve_void.fx:TShader *** time: 25.98 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define SECOND_ENABLE FALSE 
+		#define DISSOLVE_ENABLE TRUE 
+		#define FRESNEL_ENABLE TRUE 
+		#define EXPAND_ENABLE FALSE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP FALSE 
+[22:57:51.915] L [COCOSUI] Try to compile shader: shader\character_emphasize_gl.vs
+[22:57:51.917] L [COCOSUI] Try to compile shader: shader\character_emphasize_gl.ps
+WARNING ***************************************************************************
+[22:57:51.939] L [COCOSUI] [WARNING] Device do not support texture shader\core\texture\icetex.dds format DXT3, try to convert it to A8R8G8B8
+[22:57:51.944] L [COCOSUI] create effect shader\character_emphasize.fx:TShader *** time: 32.42 ms ***
+[22:57:51.999] L [COCOSUI] Try to compile shader: shader\refraction_shader_gl.vs
+[22:57:52.001] L [COCOSUI] Try to compile shader: shader\refraction_shader_gl.ps
+[22:57:52.016] L [COCOSUI] create effect shader\refraction_shader.fx:TShader *** time: 19.93 ms ***
+[22:57:52.059] L [COCOSUI] Try to compile shader: common\shader\blendadd_rt_gl.vs
+[22:57:52.062] L [COCOSUI] Try to compile shader: common\shader\blendadd_rt_gl.ps
+[22:57:52.077] L [COCOSUI] create effect common\shader\blendadd_rt.fx:TShader *** time: 22.19 ms ***
+[22:57:52.198] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.vs
+[22:57:52.199] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.ps
+[22:57:52.216] L [COCOSUI] create effect shader\dissolve_void.fx:TShader *** time: 19.96 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define SECOND_ENABLE FALSE 
+		#define DISSOLVE_ENABLE FALSE 
+		#define FRESNEL_ENABLE FALSE 
+		#define EXPAND_ENABLE FALSE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP FALSE 
+[22:57:52.226] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.vs
+[22:57:52.228] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.ps
+[22:57:52.246] L [COCOSUI] create effect shader\dissolve_void.fx:TShader *** time: 23.10 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define SECOND_ENABLE FALSE 
+		#define DISSOLVE_ENABLE FALSE 
+		#define FRESNEL_ENABLE FALSE 
+		#define EXPAND_ENABLE FALSE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP FALSE 
+[22:57:52.280] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.vs
+[22:57:52.282] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.ps
+[22:57:52.303] L [COCOSUI] create effect shader\dissolve_void.fx:TShader *** time: 24.27 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define SECOND_ENABLE FALSE 
+		#define DISSOLVE_ENABLE TRUE 
+		#define FRESNEL_ENABLE FALSE 
+		#define EXPAND_ENABLE FALSE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP FALSE 
+WARNING ***************************************************************************
+[22:57:52.386] M [COCOSUI] [WARNING] [GameThreadBlocking] WaitResTask models\character\1xin\11000\201\head.gim 1812.64 ms
+[22:57:52.397] M [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:52.400] M [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:52.441] M [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 46.38 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE TRUE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:52.459] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:52.461] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:52.500] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 45.74 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE FALSE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE TRUE 
+		#define SSS_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:52.508] M   <SCRIPT> [2019 09-24 22:57:52] [ERROR] shadow_path: models/character/1xin/11000/201/201_shadow.gim is not exist, use defualt shadow
+[22:57:52.547] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:52.551] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:52.589] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 45.23 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE FALSE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE TRUE 
+		#define SSS_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:52.668] L [COCOSUI] Try to compile shader: shader\shadow_plane_gl.vs
+[22:57:52.671] L [COCOSUI] Try to compile shader: shader\shadow_plane_gl.ps
+[22:57:52.683] L [COCOSUI] create effect shader\shadow_plane.fx:TShader *** time: 18.04 ms ***
+[22:57:52.684] L [COCOSUI] Try to compile shader: shader\shadow_plane_gl.vs
+[22:57:52.686] L [COCOSUI] Try to compile shader: shader\shadow_plane_gl.ps
+[22:57:52.698] L [COCOSUI] create effect shader\shadow_plane.fx:TShader *** time: 15.13 ms ***
+		macro:
+		#define LIGHT_ATTR_ITEM_NUM LIGHT_ATTR_ITEM_NUM_5 
+		#define ENABLE_CUSTOM_SHADOW_DIR FALSE 
+WARNING ***************************************************************************
+[22:57:52.699] M [COCOSUI] [WARNING] [GameThreadBlocking] WaitResTask models\character\1xin\11000\201\body_shadow_lod.gim 184.84 ms
+[22:57:52.724] M [COCOSUI] Try to compile shader: shader\shadow_plane_gl.vs
+[22:57:52.729] M [COCOSUI] Try to compile shader: shader\shadow_plane_gl.ps
+[22:57:52.744] M [COCOSUI] create effect shader\shadow_plane.fx:TShader *** time: 21.54 ms ***
+		macro:
+		#define LIGHT_ATTR_ITEM_NUM LIGHT_ATTR_ITEM_NUM_5 
+		#define ENABLE_CUSTOM_SHADOW_DIR TRUE 
+[22:57:52.758] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.vs
+[22:57:52.762] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.ps
+[22:57:52.797] L [COCOSUI] create effect shader\common_ship_hero.fx:TShader *** time: 41.71 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_MATCAP TRUE 
+		#define ENABLE_TRANSMISSION TRUE 
+[22:57:52.820] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.vs
+[22:57:52.825] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.ps
+[22:57:52.860] L [COCOSUI] create effect shader\common_ship_hero.fx:TShader *** time: 44.39 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_MATCAP TRUE 
+		#define ENABLE_TRANSMISSION TRUE 
+WARNING ***************************************************************************
+[22:57:52.862] M [COCOSUI] [WARNING] [GameThreadBlocking] WaitResTask models\ships\023_1_1.gim 113.44 ms
+[22:57:52.946] M   <SCRIPT> ver: 2.0.0
+[22:57:52.946] M   <SCRIPT> ver: 2.0.0
+[22:57:53.293] M [COCOSUI] Try to compile shader: shader\sky_simple_gl.vs
+[22:57:53.294] M [COCOSUI] Try to compile shader: shader\sky_simple_gl.ps
+[22:57:53.318] M [COCOSUI] create effect shader\sky_simple.fx:TShader *** time: 27.20 ms ***
+		macro:
+		#define YINHE_ENABLE FALSE 
+		#define STAR_ENABLE FALSE 
+[22:57:53.418] M [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:53.421] M [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:53.466] M [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 50.36 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE TRUE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE TRUE 
+		#define SSS_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:53.471] M [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:57:53.478] M [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:57:53.522] M [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 54.37 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE TRUE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:57:53.557] M   <SCRIPT> [2019 09-24 22:57:53] [INFO] Serverlist req finished.
+[22:57:54.110] M   <SCRIPT> [2019 09-24 22:57:54] [DEBUG] on_show_login_ui
+[22:57:54.111] M   <SCRIPT> [2019 09-24 22:57:54] [DEBUG] check_updated ch_name  linekong
+[22:57:54.129] M   <SCRIPT> ver: 2.0.0
+[22:57:54.129] M   <SCRIPT> ver: 2.0.0
+[22:57:54.130] M   <SCRIPT> ver: 2.0.0
+[22:57:59.592] L [COCOSUI] Try to compile shader: shader\common_neox_gl.vs
+[22:57:59.622] L [COCOSUI] Try to compile shader: shader\common_neox_gl.ps
+[22:57:59.653] L [COCOSUI] create effect shader\common_neox.fx:TShader *** time: 134.58 ms ***
+[22:57:59.660] L [COCOSUI] Try to compile shader: shader\common_neox_gl.vs
+[22:57:59.663] L [COCOSUI] Try to compile shader: shader\common_neox_gl.ps
+[22:57:59.691] L [COCOSUI] create effect shader\common_neox.fx:TShader *** time: 32.36 ms ***
+		macro:
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define SEA_DARK_ENABLE FALSE 
+[22:57:59.734] M [COCOSUI] Try to compile shader: shader\common_neox_gl.vs
+[22:57:59.737] M [COCOSUI] Try to compile shader: shader\common_neox_gl.ps
+[22:57:59.762] M [COCOSUI] create effect shader\common_neox.fx:TShader *** time: 28.88 ms ***
+		macro:
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:58:03.070] M   <SCRIPT> [2019 09-24 22:58:03] [INFO] login_callback 0 0
+[22:58:03.072] M   <SCRIPT> [2019 09-24 22:58:03] [INFO] on channel login callback.
+[22:58:03.104] M   <SCRIPT> [2019 09-24 22:58:03] [INFO] Connect loginserver: no proxy
+[22:58:03.132] M   <SCRIPT> [xuxh]: ------------------------- network | check_network_type: _phone_network_type = 0, current detected network _type = 1
+[22:58:03.160] M   <SCRIPT> [2019 09-24 22:58:03] [INFO] network | connect_async | connect_callback: connect server async True
+[22:58:03.185] M   <SCRIPT> [INFO] connect server. State: 3
+[22:58:03.185] M   <SCRIPT> [INFO] login queue: 0 0
+[22:58:03.234] M   <SCRIPT> [2019 09-24 22:58:03] [INFO] sendLoginLogin
+[22:58:03.400] M   <SCRIPT> [INFO] LoginTokenRes
+[22:58:03.401] M   <SCRIPT> [xuxh]: onLoginTokenRes | idlist = [{'host': 187304, 'uid': 865726, 'time': 1522425957}, {'host': 187303, 'uid': 865722, 'time': 1522425470}, {'host': 187303, 'uid': 843428, 'time': 1519690841}]
+[22:58:03.401] M   <SCRIPT> [2019 09-24 22:58:03] [DEBUG] on_login_login
+[22:58:03.402] M   <SCRIPT> [2019 09-24 22:58:03] [INFO] login_server: on_sauth_channel_login
+[22:58:03.403] M   <SCRIPT> [2019 09-24 22:58:03] [INFO] Do req rolelist.
+[22:58:03.404] M   <SCRIPT> [2019 09-24 22:58:03] [INFO] Getting Userlist of 187304, page=0
+[22:58:03.406] M   <SCRIPT> [2019 09-24 22:58:03] [INFO] Getting Userlist of 187303, page=0
+[22:58:03.501] M   <SCRIPT> [INFO] onGetHostUid
+[22:58:03.518] M   <SCRIPT> [INFO] onGetHostUid
+[22:58:03.599] M   <SCRIPT> [2019 09-24 22:58:03] [INFO] Req_role_list finished!
+[22:58:04.477] M   <SCRIPT> [2019 09-24 22:58:04] [INFO] Connect gameserver: No proxy
+[22:58:04.508] M   <SCRIPT> [xuxh]: ------------------------- network | check_network_type: _phone_network_type = 0, current detected network _type = 1
+[22:58:04.516] M   <SCRIPT> [2019 09-24 22:58:04] [INFO] network | connect_async | connect_callback: connect server async True
+[22:58:04.541] M   <SCRIPT> [INFO] connect server. State: 7
+[22:58:04.556] M   <SCRIPT> ver: 2.0.0
+[22:58:04.557] M   <SCRIPT> ver: 2.0.0
+[22:58:04.574] M   <SCRIPT> [INFO] login queue: 0 0
+[22:58:04.678] M   <SCRIPT> [INFO] onConnect login
+[22:58:05.113] M   <SCRIPT> [INFO] login_game_server
+[22:58:05.114] M   <SCRIPT> [2019 09-24 22:58:05] [INFO] sendGameLogin
+[22:58:05.116] M   <SCRIPT> [2019 09-24 22:58:05] [DEBUG] clear_create_role
+[22:58:05.475] M   <SCRIPT> [INFO] onLoginRes prot = {'msg': '', 'res': 1, 'reghost': 187005, 'usernum': 843428, '__fRecvTime': 1569333485.449415}
+WARNING ***************************************************************************
+[22:58:07.006] M [COCOSUI] [WARNING] Audio::SetGroupVolume: [FMOD] (89) The requested event, event group, event category or event property could not be found. 
+[22:58:07.317] M   <SCRIPT> [2019 09-24 22:58:07] [DEBUG] on_enter_game
+[22:58:07.318] M   <SCRIPT> [2019 09-24 22:58:07] [INFO] set_user_info
+[22:58:07.321] M   <SCRIPT> [2019 09-24 22:58:07] [INFO] update_userinfo
+[22:58:09.554] M   <SCRIPT> [2019 09-24 22:58:09] [INFO] send_push_token
+[22:58:09.554] M   <SCRIPT> ------------------------ send_push_token --> token: fuzgOjsNbeQ:APA91bECssuaGWzx9gxYtblrk8ogsQH46PeKcpz6B8Flv0q48q0U08rqqJC7meP9ZdpTsbSibxq8Zzr_OpO9gsGNsQg5kw1-bPJVafW1K8wZ5HkJe-Q_WF74jr_FGdZnJwpJGfOzqdzd,fcm,com.netease.dhhzlggkr
+[22:58:09.555] M   <SCRIPT> [2019 09-24 22:58:09] [DEBUG] on_login_game
+[22:58:11.405] L [COCOSUI] Try to compile shader: shader\lightmap_tree2d_gl.vs
+[22:58:11.410] M   <SCRIPT> ver: 2.0.0
+[22:58:11.410] M   <SCRIPT> ver: 2.0.0
+[22:58:11.414] L [COCOSUI] Try to compile shader: shader\lightmap_tree2d_gl.ps
+[22:58:11.442] M   <SCRIPT> ver: 2.0.0
+[22:58:11.455] L [COCOSUI] create effect shader\lightmap_tree2d.fx:TShader *** time: 81.33 ms ***
+[22:58:11.457] L [COCOSUI] Try to compile shader: shader\lightmap_tree2d_gl.vs
+[22:58:11.460] L [COCOSUI] Try to compile shader: shader\lightmap_tree2d_gl.ps
+[22:58:11.487] L [COCOSUI] create effect shader\lightmap_tree2d.fx:TShader *** time: 31.62 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_SELF_BRIGHT FALSE 
+		#define AT_NIGHT FALSE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:58:11.497] L [COCOSUI] Try to compile shader: shader\lightmap_tree2d_gl.vs
+[22:58:11.499] L [COCOSUI] Try to compile shader: shader\lightmap_tree2d_gl.ps
+[22:58:11.529] L [COCOSUI] create effect shader\lightmap_tree2d.fx:TShader *** time: 34.45 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_SELF_BRIGHT FALSE 
+		#define AT_NIGHT FALSE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:58:11.843] L [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:58:11.851] L [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:58:11.872] L [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 31.58 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_SELF_BRIGHT TRUE 
+		#define AT_NIGHT FALSE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:58:12.048] M [COCOSUI] Try to compile shader: shader\terrain_port_gl.vs
+[22:58:12.054] M [COCOSUI] Try to compile shader: shader\terrain_port_gl.ps
+[22:58:12.093] M [COCOSUI] create effect shader\terrain_port.fx:TerrainTech *** time: 48.16 ms ***
+[22:58:12.096] M [COCOSUI] Try to compile shader: shader\terrain_port_gl.vs
+[22:58:12.100] M [COCOSUI] Try to compile shader: shader\terrain_port_gl.ps
+[22:58:12.144] M [COCOSUI] create effect shader\terrain_port.fx:TerrainTech *** time: 49.29 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define TERRAIN_TECH_TYPE TERRAIN_ALPHAMAP_4 
+		#define SEA_DARK_ENABLE TRUE 
+[22:58:12.204] L [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:58:12.206] L [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:58:12.237] L [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 33.89 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_SELF_BRIGHT TRUE 
+		#define AT_NIGHT FALSE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:58:12.498] M [COCOSUI] Try to compile shader: common\shader\sprite_vegetation_gl.vs
+[22:58:12.500] M [COCOSUI] Try to compile shader: common\shader\sprite_vegetation_gl.ps
+[22:58:12.515] M [COCOSUI] create effect common\shader\sprite_vegetation.fx:TShader *** time: 19.06 ms ***
+		macro:
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define SNOW FALSE 
+[22:58:12.670] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/icon/role_head/201.png
+[22:58:12.670] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/icon/country/f1002.png
+[22:58:12.670] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/common/bg/1.png
+[22:58:12.670] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/icon/role_head/202.png
+[22:58:12.671] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/common/bg/bg_login.png
+[22:58:12.671] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/lights/guangban03.png
+[22:58:12.671] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/icon/country/1001.png
+[22:58:12.671] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/lights/guangban01.png
+[22:58:12.671] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/lights/0129huiguang01.png
+[22:58:12.671] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/lights/light2.png
+[22:58:12.671] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/lights/light1.png
+[22:58:12.671] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/icon/peerage/img_badengxunjue.png
+[22:58:12.672] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/common2/lab_club.png
+[22:58:12.672] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/common2/icon_club.png
+[22:58:12.672] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/patch/img_prog_bg.png
+[22:58:12.672] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/patch/img_bottom.png
+[22:58:12.672] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/patch/img_effect.png
+[22:58:12.672] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/lights/guangban02.png
+[22:58:12.672] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/patch/btn_cancel.png
+[22:58:12.673] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/patch/bg.png
+[22:58:12.673] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/patch/img_prog.png
+[22:58:12.673] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/patch/lab_kuaijiefankui.png
+[22:58:12.673] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/patch/txt_title.png
+[22:58:12.673] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/patch/img_prog_light.png
+[22:58:12.673] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/patch/img_title.png
+[22:58:12.673] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/patch/btn_ok.png
+[22:58:12.674] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/patch/icon_kuaijiefankui.png
+[22:58:12.674] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/lights/guangban04.png
+[22:58:12.674] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/common2/img_qrcode.png
+[22:58:12.674] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/patch/pnl_bg.png
+[22:58:13.038] M   <SCRIPT> ....create_sky
+[22:58:13.184] L [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:13.187] L [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:13.206] L [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 27.95 ms ***
+[22:58:13.209] L [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:13.210] L [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:13.230] L [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 23.87 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO FALSE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:58:13.364] L [COCOSUI] Try to compile shader: shader\common_nolight_gl.vs
+[22:58:13.366] L [COCOSUI] Try to compile shader: shader\common_nolight_gl.ps
+[22:58:13.381] L [COCOSUI] create effect shader\common_nolight.fx:TShader *** time: 18.53 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP FALSE 
+[22:58:13.398] L [COCOSUI] Try to compile shader: shader\common_nolight_gl.vs
+[22:58:13.399] L [COCOSUI] Try to compile shader: shader\common_nolight_gl.ps
+[22:58:13.414] L [COCOSUI] create effect shader\common_nolight.fx:TShader *** time: 16.88 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP FALSE 
+[22:58:13.450] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.vs
+[22:58:13.452] L [COCOSUI] Try to compile shader: shader\dissolve_void_gl.ps
+[22:58:13.474] L [COCOSUI] create effect shader\dissolve_void.fx:TShader *** time: 27.00 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define SECOND_ENABLE FALSE 
+		#define DISSOLVE_ENABLE TRUE 
+		#define FRESNEL_ENABLE FALSE 
+		#define EXPAND_ENABLE FALSE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP FALSE 
+[22:58:13.478] L [COCOSUI] Try to compile shader: common\shader\blendadd_gl.vs
+[22:58:13.479] L [COCOSUI] Try to compile shader: common\shader\blendadd_gl.ps
+[22:58:13.495] L [COCOSUI] create effect common/shader/blendadd.fx:TShader *** time: 17.57 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_NONE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define TEX_COUNT TEX_COUNT_1 
+		#define VCOLOR_MODE VCOLOR_MODE_MUL 
+		#define MUL_RATIO MUL_RATIO_4 
+		#define HSV_CHANGE_HUE TRUE 
+[22:58:13.661] L [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:13.663] L [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:13.684] L [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 25.15 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO FALSE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:58:13.743] L [COCOSUI] Try to compile shader: common\shader\common_gl.vs
+[22:58:13.744] L [COCOSUI] Try to compile shader: common\shader\common_gl.ps
+[22:58:13.758] L [COCOSUI] create effect <ModelNormalTech>:TNoShader *** time: 16.45 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+[22:58:13.824] L [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:13.826] L [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:13.852] L [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 30.54 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO FALSE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:58:13.870] L [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:13.872] L [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:13.897] L [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 29.14 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO FALSE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:58:14.299] L [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:58:14.305] L [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:58:14.328] L [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 30.02 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_SELF_BRIGHT TRUE 
+		#define AT_NIGHT FALSE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+WARNING ***************************************************************************
+[22:58:14.577] M [COCOSUI] [WARNING] [GameThreadBlocking] WaitResTask models\others\sun.gim 1533.21 ms
+[22:58:15.810] M   <SCRIPT> ver: 2.0.0
+[22:58:15.810] M   <SCRIPT> ver: 2.0.0
+[22:58:15.811] M   <SCRIPT> ver: 2.0.0
+[22:58:16.242] L [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:16.245] L [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:16.269] L [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 28.49 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_TRANSMISSION FALSE 
+WARNING ***************************************************************************
+[22:58:16.314] M [COCOSUI] [WARNING] no preset camera named cam found! return indentity matrix
+[22:58:16.353] L [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:16.360] L [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:16.389] L [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 39.50 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:58:16.391] L [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:16.393] L [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:16.397] M   <SCRIPT> ver: 2.0.0
+[22:58:16.397] M   <SCRIPT> ver: 2.0.0
+[22:58:16.418] L [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 29.29 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:58:16.430] M   <SCRIPT> ver: 2.0.0
+[22:58:16.431] M   <SCRIPT> ver: 2.0.0
+[22:58:16.453] L [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:16.455] L [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:16.482] L [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 31.74 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:58:16.490] L [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:16.492] L [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:16.520] L [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 31.28 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_TRANSMISSION TRUE 
+[22:58:16.552] M   <SCRIPT> ver: 2.0.0
+[22:58:16.552] M   <SCRIPT> ver: 2.0.0
+[22:58:16.552] M   <SCRIPT> ver: 2.0.0
+[22:58:16.559] M   <SCRIPT> [WARNING] ui create name is None DarkenTrans'>
+[22:58:16.564] L [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:16.567] L [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:16.592] L [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 29.52 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION TRUE 
+[22:58:18.145] M   <SCRIPT> ver: 2.0.0
+[22:58:18.145] M   <SCRIPT> ver: 2.0.0
+[22:58:19.015] M   <SCRIPT> ver: 2.0.0
+[22:58:19.015] M   <SCRIPT> ver: 2.0.0
+[22:58:19.082] M   <SCRIPT> ver: 2.0.0
+[22:58:19.082] M   <SCRIPT> ver: 2.0.0
+WARNING ***************************************************************************
+[22:58:19.199] M [COCOSUI] [WARNING] model[models\ships\041_0_0.gim] doesn't have socket[qizhi_001]!
+[22:58:19.285] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:19.287] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:19.315] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 31.71 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:58:19.317] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:19.319] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:19.354] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 39.48 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:58:19.388] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:19.394] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:19.422] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 36.06 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR TRUE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION TRUE 
+WARNING ***************************************************************************
+[22:58:19.460] M [COCOSUI] [WARNING] [GameThreadBlocking] WaitResTask models\ships\bow\4514.gim 16.66 ms
+[22:58:19.464] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:19.467] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:19.495] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 33.06 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR TRUE 
+		#define INSIGNIA TRUE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION TRUE 
+[22:58:19.650] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.vs
+[22:58:19.652] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.ps
+[22:58:19.689] L [COCOSUI] create effect shader\common_ship_hero.fx:TShader *** time: 41.46 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO FALSE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_MATCAP TRUE 
+		#define ENABLE_TRANSMISSION TRUE 
+[22:58:19.719] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.vs
+[22:58:19.724] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.ps
+[22:58:19.763] L [COCOSUI] create effect shader\common_ship_hero.fx:TShader *** time: 47.14 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO FALSE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_MATCAP TRUE 
+		#define ENABLE_TRANSMISSION TRUE 
+[22:58:19.767] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.vs
+[22:58:19.770] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.ps
+[22:58:19.805] L [COCOSUI] create effect shader\common_ship_hero.fx:TShader *** time: 41.55 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO FALSE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_MATCAP TRUE 
+		#define ENABLE_TRANSMISSION TRUE 
+[22:58:19.817] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.vs
+[22:58:19.823] L [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.ps
+[22:58:19.852] L [COCOSUI] create effect shader\common_ship_hero.fx:TShader *** time: 38.83 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO FALSE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_MATCAP TRUE 
+		#define ENABLE_TRANSMISSION TRUE 
+WARNING ***************************************************************************
+[22:58:19.853] M [COCOSUI] [WARNING] [GameThreadBlocking] WaitResTask models\ships\qizhi\xiaoshenchuanqizhi_a2.gim 309.41 ms
+[22:58:20.021] M [COCOSUI] FT_New_Memory_Face Typo_JeongJoProB.ttf
+WARNING ***************************************************************************
+[22:58:20.047] M [COCOSUI] [WARNING] model[models\ships\041_0_0.gim] doesn't have socket[qizhi_001]!
+WARNING ***************************************************************************
+[22:58:20.086] M [COCOSUI] [WARNING] [GameThreadBlocking] WaitResTask models\ships\bow\4510.gim 21.11 ms
+WARNING ***************************************************************************
+[22:58:20.096] M [COCOSUI] [WARNING] model[models\ships\041_0_0.gim] doesn't have socket[qizhi_001]!
+WARNING ***************************************************************************
+[22:58:20.139] M [COCOSUI] [WARNING] [GameThreadBlocking] WaitResTask models\ships\bow\4502.gim 19.36 ms
+WARNING ***************************************************************************
+[22:58:20.165] M [COCOSUI] [WARNING] model[models\ships\041_0_0.gim] doesn't have socket[qizhi_001]!
+[22:58:20.193] L [COCOSUI] Try to compile shader: common\shader\particle_dissolve_color_gl.vs
+[22:58:20.195] L [COCOSUI] Try to compile shader: common\shader\particle_dissolve_color_gl.ps
+[22:58:20.212] L [COCOSUI] create effect common\shader\particle_dissolve_color.fx:TShader *** time: 22.85 ms ***
+[22:58:20.213] L [COCOSUI] Try to compile shader: common\shader\particle_dissolve_color_gl.vs
+[22:58:20.215] L [COCOSUI] Try to compile shader: common\shader\particle_dissolve_color_gl.ps
+[22:58:20.232] L [COCOSUI] create effect common\shader\particle_dissolve_color.fx:TShader *** time: 20.23 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SEPARATE_ALPHA_TEX 1 
+		#define MUL_RATIO MUL_RATIO_1 
+		#define TEX_COUNT TEX_COUNT_1 
+		#define VCOLOR_MODE VCOLOR_MODE_MUL 
+		#define HSV_CHANGE_HUE TRUE 
+WARNING ***************************************************************************
+[22:58:20.236] M [COCOSUI] [WARNING] model[models\ships\043_0_0.gim] doesn't have socket[qizhi_001]!
+WARNING ***************************************************************************
+[22:58:20.320] M [COCOSUI] [WARNING] [GameThreadBlocking] WaitResTask models\ships\bow\4507.gim 35.27 ms
+WARNING ***************************************************************************
+[22:58:20.339] M [COCOSUI] [WARNING] model[models\ships\043_0_0.gim] doesn't have socket[qizhi_001]!
+[22:58:20.356] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:20.363] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:20.391] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 37.47 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR TRUE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+WARNING ***************************************************************************
+[22:58:20.434] M [COCOSUI] [WARNING] [GameThreadBlocking] WaitResTask models\ships\bow\4505.gim 37.14 ms
+[22:58:20.437] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:20.439] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:20.466] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 31.47 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR TRUE 
+		#define INSIGNIA TRUE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+WARNING ***************************************************************************
+[22:58:20.556] M [COCOSUI] [WARNING] [GameThreadBlocking] WaitResTask models\ships\qizhi\xiaoshenchuanqizhi_c3.gim 80.81 ms
+[22:58:20.572] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:20.574] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:20.603] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 33.68 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR TRUE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_TRANSMISSION TRUE 
+[22:58:20.604] L [COCOSUI] Try to compile shader: common\shader\blendadd_gl.vs
+[22:58:20.606] L [COCOSUI] Try to compile shader: common\shader\blendadd_gl.ps
+[22:58:20.624] L [COCOSUI] create effect common/shader/blendadd.fx:TShader *** time: 46.48 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_NONE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define TEX_COUNT TEX_COUNT_1 
+		#define VCOLOR_MODE VCOLOR_MODE_MUL 
+		#define MUL_RATIO MUL_RATIO_2 
+		#define HSV_CHANGE_HUE TRUE 
+[22:58:20.729] L [COCOSUI] Try to compile shader: shader\rainbow_matcap_gl.vs
+[22:58:20.732] L [COCOSUI] Try to compile shader: shader\rainbow_matcap_gl.ps
+[22:58:20.762] L [COCOSUI] create effect shader\rainbow_matcap.fx:TShader *** time: 38.48 ms ***
+[22:58:20.764] L [COCOSUI] Try to compile shader: shader\rainbow_matcap_gl.vs
+[22:58:20.766] L [COCOSUI] Try to compile shader: shader\rainbow_matcap_gl.ps
+[22:58:20.800] L [COCOSUI] create effect shader\rainbow_matcap.fx:TShader *** time: 37.71 ms ***
+		macro:
+		#define LIGHT_ATTR_ITEM_NUM LIGHT_ATTR_ITEM_NUM_5 
+WARNING ***************************************************************************
+[22:58:20.880] M [COCOSUI] [WARNING] [GameThreadBlocking] WaitResTask models\ships\bow\4528_low.gim 248.33 ms
+[22:58:20.926] M [COCOSUI] Try to compile shader: shader\dissolve_void_gl.vs
+[22:58:20.937] M [COCOSUI] Try to compile shader: shader\dissolve_void_gl.ps
+[22:58:20.965] M [COCOSUI] create effect shader\dissolve_void.fx:TShader *** time: 39.92 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define SECOND_ENABLE TRUE 
+		#define DISSOLVE_ENABLE TRUE 
+		#define FRESNEL_ENABLE FALSE 
+		#define EXPAND_ENABLE FALSE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP FALSE 
+[22:58:20.976] M [COCOSUI] Try to compile shader: shader\dissolve_void_gl.vs
+[22:58:20.978] M [COCOSUI] Try to compile shader: shader\dissolve_void_gl.ps
+[22:58:21.003] M [COCOSUI] create effect shader\dissolve_void.fx:TShader *** time: 29.63 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define SECOND_ENABLE TRUE 
+		#define DISSOLVE_ENABLE TRUE 
+		#define FRESNEL_ENABLE FALSE 
+		#define EXPAND_ENABLE FALSE 
+		#define FORCE_FOG_ENABLE FALSE 
+		#define NO_CLIP FALSE 
+[22:58:21.159] M [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:58:21.162] M [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:58:21.201] M [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 45.20 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE TRUE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:58:21.204] M [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:58:21.206] M [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:58:21.255] M [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 54.10 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE TRUE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS TRUE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:58:21.260] M [COCOSUI] Try to compile shader: shader\dissolve_gl.vs
+[22:58:21.262] M [COCOSUI] Try to compile shader: shader\dissolve_gl.ps
+[22:58:21.286] M [COCOSUI] create effect shader\dissolve.fx:TShader *** time: 27.68 ms ***
+		macro:
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define GPU_SKIN_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define SECOND_ENABLE FALSE 
+		#define FRESNEL_ENABLE TRUE 
+		#define DISSOLVE_ENABLE FALSE 
+WARNING ***************************************************************************
+[22:58:21.287] M [COCOSUI] [WARNING] Attach macro that not declared in shader, key: SEA_DARK_ENABLE value: 0
+WARNING ***************************************************************************
+[22:58:21.287] M [COCOSUI] [WARNING] mtl Name:[Standard_2]of tech:[shader\rainbow_matcap.fx::TShader] with diffusemap: [] set macro error
+[22:58:21.291] M [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:58:21.293] M [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:58:21.335] M [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 47.38 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE TRUE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE 0 
+[22:58:21.338] M [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:58:21.340] M [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:58:21.381] M [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 45.49 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE TRUE 
+		#define FOG_ENABLE TRUE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS TRUE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE 0 
+[22:58:21.383] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:58:21.386] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:58:21.409] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 28.05 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT FALSE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR TRUE 
+		#define INSIGNIA TRUE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_TRANSMISSION TRUE 
+WARNING ***************************************************************************
+[22:58:21.448] M [COCOSUI] [WARNING] [GameThreadBlocking] WaitResTask models\ships\qizhi\xiaoshenchuanqizhi_a3.gim 27.48 ms
+WARNING ***************************************************************************
+[22:58:21.494] M [COCOSUI] [WARNING] model[models\ships\035_0_0.gim] doesn't have socket[qizhi_001]!
+[22:58:22.660] M   <SCRIPT> [WARNING] ui create name is None ChatMain'>
+[22:58:22.753] M   <SCRIPT> ver: 2.0.0
+[22:58:22.754] M   <SCRIPT> ver: 2.0.0
+[22:58:24.530] M   <SCRIPT> ver: 2.0.0
+[22:58:24.530] M   <SCRIPT> ver: 2.0.0
+[22:58:24.843] M [COCOSUI] Try to compile shader: shader\common_gl.vs
+[22:58:24.845] M [COCOSUI] Try to compile shader: shader\common_gl.ps
+[22:58:24.868] M [COCOSUI] create effect shader\common.fx:TShader *** time: 26.46 ms ***
+		macro:
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define SEA_DARK_ENABLE FALSE 
+[22:58:24.906] M [COCOSUI] Try to compile shader: shader\common_gl.vs
+[22:58:24.907] M [COCOSUI] Try to compile shader: shader\common_gl.ps
+[22:58:24.925] M [COCOSUI] create effect shader\common.fx:TShader *** time: 20.46 ms ***
+		macro:
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:58:25.009] M [COCOSUI] Try to compile shader: common\shader\particle_dissolve_gl.vs
+[22:58:25.012] M [COCOSUI] Try to compile shader: common\shader\particle_dissolve_gl.ps
+[22:58:25.029] M [COCOSUI] create effect common\shader\particle_dissolve.fx:TShader *** time: 23.79 ms ***
+[22:58:25.030] M [COCOSUI] Try to compile shader: common\shader\particle_dissolve_gl.vs
+[22:58:25.032] M [COCOSUI] Try to compile shader: common\shader\particle_dissolve_gl.ps
+[22:58:25.049] M [COCOSUI] create effect common\shader\particle_dissolve.fx:TShader *** time: 19.97 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SEPARATE_ALPHA_TEX 1 
+		#define MUL_RATIO MUL_RATIO_1 
+		#define TEX_COUNT TEX_COUNT_1 
+		#define VCOLOR_MODE VCOLOR_MODE_MUL 
+		#define HSV_CHANGE_HUE TRUE 
+[22:58:25.198] M [COCOSUI] Try to compile shader: common\shader\blendadd_rt_gl.vs
+[22:58:25.199] M [COCOSUI] Try to compile shader: common\shader\blendadd_rt_gl.ps
+[22:58:25.213] M [COCOSUI] create effect common\shader\blendadd_rt.fx:TShader *** time: 17.76 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define MUL_RATIO MUL_RATIO_1 
+		#define TEX_COUNT TEX_COUNT_1 
+		#define VCOLOR_MODE VCOLOR_MODE_MUL 
+		#define HSV_CHANGE_HUE TRUE 
+[22:58:25.389] M [COCOSUI] Try to compile shader: shader\dissolve_gl.vs
+[22:58:25.391] M [COCOSUI] Try to compile shader: shader\dissolve_gl.ps
+[22:58:25.415] M [COCOSUI] create effect shader\dissolve.fx:TShader *** time: 27.65 ms ***
+		macro:
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define GPU_SKIN_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define SECOND_ENABLE FALSE 
+		#define FRESNEL_ENABLE TRUE 
+		#define DISSOLVE_ENABLE TRUE 
+[22:58:25.487] M   <SCRIPT> ver: 2.0.0
+[22:58:25.487] M   <SCRIPT> ver: 2.0.0
+[22:58:25.617] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/icon/buff/baohushijian.png
+[22:58:25.617] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/icon/title_icon/img_wife.png
+[22:58:25.617] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/loading/beiou.png
+[22:58:25.618] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/icon/country/1001.png
+[22:58:25.618] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/plists/login_a_role_select1.png
+[22:58:25.618] M [COCOSUI] cocos2d: TextureCache: removing unused texture: uires/plists/login_a_role_select0.png
+[22:58:25.679] M   <SCRIPT> [xuxh]: message_data | exclude_deleted_emails | # of emails deleted:  20
+[22:58:25.810] M   <SCRIPT> ver: 2.0.0
+[22:58:25.810] M   <SCRIPT> ver: 2.0.0
+[22:58:25.816] M   <SCRIPT> ver: 2.0.0
+[22:58:25.817] M   <SCRIPT> ver: 2.0.0
+[22:58:26.112] M   <SCRIPT> ver: 2.0.0
+[22:58:26.112] M   <SCRIPT> ver: 2.0.0
+[22:58:29.290] M   <SCRIPT> ver: 2.0.0
+[22:58:29.290] M   <SCRIPT> ver: 2.0.0
+[22:58:29.490] M   <SCRIPT> ver: 2.0.0
+[22:58:29.490] M   <SCRIPT> ver: 2.0.0
+[22:58:29.580] M   <SCRIPT> ver: 2.0.0
+[22:58:29.580] M   <SCRIPT> ver: 2.0.0
+[22:58:29.591] M   <SCRIPT> ver: 2.0.0
+[22:58:33.452] M   <SCRIPT> ver: 2.0.0
+[22:58:33.452] M   <SCRIPT> ver: 2.0.0
+[22:58:36.407] M   <SCRIPT> ver: 2.0.0
+[22:58:36.408] M   <SCRIPT> ver: 2.0.0
+[22:58:36.447] M   <SCRIPT> ver: 2.0.0
+[22:58:36.447] M   <SCRIPT> ver: 2.0.0
+[22:58:40.778] M   <SCRIPT> ver: 2.0.0
+[22:59:15.198] M   <SCRIPT> ver: 2.0.0
+[22:59:15.199] M   <SCRIPT> ver: 2.0.0
+[22:59:16.048] M   <SCRIPT> ver: 2.0.0
+[22:59:16.048] M   <SCRIPT> ver: 2.0.0
+[22:59:16.271] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:59:16.274] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:59:16.317] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 48.26 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE FALSE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:59:16.433] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:59:16.438] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:59:16.480] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 52.51 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE FALSE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:59:16.752] L [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:59:16.754] L [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:59:16.795] L [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 45.68 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE FALSE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:59:16.999] L [COCOSUI] Try to compile shader: shader\matcap_gl.vs
+[22:59:17.002] L [COCOSUI] Try to compile shader: shader\matcap_gl.ps
+[22:59:17.021] L [COCOSUI] create effect shader\matcap.fx:TShader *** time: 27.95 ms ***
+[22:59:17.024] L [COCOSUI] Try to compile shader: shader\matcap_gl.vs
+[22:59:17.026] L [COCOSUI] Try to compile shader: shader\matcap_gl.ps
+[22:59:17.054] L [COCOSUI] create effect shader\matcap.fx:TShader *** time: 32.38 ms ***
+		macro:
+		#define LIT_ENABLE FALSE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_MATCAP TRUE 
+		#define FRESNEL_ENABLE FALSE 
+		#define Enable_PARTICLE_COLOR FALSE 
+WARNING ***************************************************************************
+[22:59:17.067] L [COCOSUI] [WARNING] Try to load texture file texture\matcap\image_20160421141524.ktx with non-power-2 size (162 X 155)!
+WARNING ***************************************************************************
+[22:59:17.382] M [COCOSUI] [WARNING] [GameThreadBlocking] WaitResTask scenes\person_scene\person_scene.scn 1288.05 ms
+[22:59:17.388] M [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:59:17.390] M [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:59:17.431] M [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 45.68 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:59:17.436] M [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:59:17.439] M [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:59:17.482] M [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 49.10 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:59:17.486] M [COCOSUI] Try to compile shader: shader\phong_new_gl.vs
+[22:59:17.488] M [COCOSUI] Try to compile shader: shader\phong_new_gl.ps
+[22:59:17.530] M [COCOSUI] create effect shader\phong_new.fx:TShader *** time: 47.70 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define XNORMAL_MAP_ENABLE TRUE 
+		#define RIM_LIGHT_ENABLE_PS FALSE 
+		#define RIM_LIGHT_ENABLE_VS FALSE 
+		#define MATCAP_ENABLE TRUE 
+		#define ANISO_ENABLE FALSE 
+		#define SSS_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define DYNAMIC_GI_ENABLE FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:59:17.683] M   <SCRIPT> ver: 2.0.0
+[22:59:17.777] L [COCOSUI] Try to compile shader: shader\dissolve_gl.vs
+[22:59:17.780] L [COCOSUI] Try to compile shader: shader\dissolve_gl.ps
+[22:59:17.814] L [COCOSUI] create effect shader\dissolve.fx:TShader *** time: 42.19 ms ***
+		macro:
+		#define LIT_ENABLE FALSE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define GPU_SKIN_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define SECOND_ENABLE TRUE 
+		#define FRESNEL_ENABLE TRUE 
+		#define DISSOLVE_ENABLE TRUE 
+[22:59:17.846] L [COCOSUI] Try to compile shader: shader\dissolve_gl.vs
+[22:59:17.847] L [COCOSUI] Try to compile shader: shader\dissolve_gl.ps
+[22:59:17.884] L [COCOSUI] create effect shader\dissolve.fx:TShader *** time: 41.55 ms ***
+		macro:
+		#define LIT_ENABLE FALSE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define GPU_SKIN_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define SECOND_ENABLE TRUE 
+		#define FRESNEL_ENABLE TRUE 
+		#define DISSOLVE_ENABLE TRUE 
+[22:59:18.779] L [COCOSUI] Try to compile shader: shader\dissolve_gl.vs
+[22:59:18.781] L [COCOSUI] Try to compile shader: shader\dissolve_gl.ps
+[22:59:18.796] L [COCOSUI] create effect shader\dissolve.fx:TShader *** time: 19.31 ms ***
+		macro:
+		#define LIT_ENABLE FALSE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define GPU_SKIN_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define SECOND_ENABLE FALSE 
+		#define FRESNEL_ENABLE FALSE 
+		#define DISSOLVE_ENABLE TRUE 
+[22:59:18.823] L [COCOSUI] Try to compile shader: shader\dissolve_gl.vs
+[22:59:18.825] L [COCOSUI] Try to compile shader: shader\dissolve_gl.ps
+[22:59:18.847] L [COCOSUI] create effect shader\dissolve.fx:TShader *** time: 26.21 ms ***
+		macro:
+		#define LIT_ENABLE FALSE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define GPU_SKIN_ENABLE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define SECOND_ENABLE FALSE 
+		#define FRESNEL_ENABLE FALSE 
+		#define DISSOLVE_ENABLE TRUE 
+[22:59:19.215] M   <SCRIPT> ver: 2.0.0
+[22:59:19.215] M   <SCRIPT> ver: 2.0.0
+[22:59:32.974] M [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:59:32.977] M [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:59:33.001] M [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 30.57 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_SELF_BRIGHT FALSE 
+		#define AT_NIGHT TRUE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:59:33.004] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:59:33.006] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:59:33.028] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 27.08 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT TRUE 
+		#define SHIP_AO FALSE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:59:33.030] M [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:59:33.032] M [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:59:33.053] M [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 24.47 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_SELF_BRIGHT FALSE 
+		#define AT_NIGHT TRUE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:59:33.055] M [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:59:33.057] M [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:59:33.086] M [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 32.96 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_SELF_BRIGHT FALSE 
+		#define AT_NIGHT TRUE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:59:33.091] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:59:33.093] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:59:33.122] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 33.35 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT TRUE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:59:33.124] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:59:33.126] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:59:33.154] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 31.75 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT TRUE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:59:33.157] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:59:33.159] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:59:33.191] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 35.92 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT TRUE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR TRUE 
+		#define INSIGNIA TRUE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION TRUE 
+[22:59:33.193] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:59:33.195] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:59:33.217] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 26.24 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT TRUE 
+		#define SHIP_AO FALSE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:59:33.220] M [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:59:33.223] M [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:59:33.250] M [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 30.99 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_SELF_BRIGHT FALSE 
+		#define AT_NIGHT TRUE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:59:33.252] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:59:33.254] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:59:33.275] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 25.13 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT TRUE 
+		#define SHIP_AO FALSE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:59:33.277] M [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:59:33.279] M [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:59:33.307] M [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 30.80 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_SELF_BRIGHT TRUE 
+		#define AT_NIGHT TRUE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:59:33.309] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:59:33.311] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:59:33.346] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 39.10 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT TRUE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:59:33.348] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:59:33.350] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:59:33.393] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 46.32 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT TRUE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:59:33.396] M [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.vs
+[22:59:33.397] M [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.ps
+[22:59:33.438] M [COCOSUI] create effect shader\common_ship_hero.fx:TShader *** time: 44.66 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT TRUE 
+		#define SHIP_AO FALSE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_MATCAP TRUE 
+		#define ENABLE_TRANSMISSION TRUE 
+[22:59:33.440] M [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.vs
+[22:59:33.442] M [COCOSUI] Try to compile shader: shader\common_ship_hero_gl.ps
+[22:59:33.475] M [COCOSUI] create effect shader\common_ship_hero.fx:TShader *** time: 36.85 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT TRUE 
+		#define SHIP_AO FALSE 
+		#define SHIP_MUL_COLOR FALSE 
+		#define INSIGNIA FALSE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_MATCAP TRUE 
+		#define ENABLE_TRANSMISSION TRUE 
+[22:59:33.478] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:59:33.480] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:59:33.511] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 34.65 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT TRUE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR TRUE 
+		#define INSIGNIA TRUE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_TRANSMISSION FALSE 
+[22:59:33.514] M [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:59:33.516] M [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:59:33.546] M [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 33.62 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE FALSE 
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_SELF_BRIGHT FALSE 
+		#define AT_NIGHT TRUE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:59:33.554] M [COCOSUI] Try to compile shader: shader\common_ship_gl.vs
+[22:59:33.556] M [COCOSUI] Try to compile shader: shader\common_ship_gl.ps
+[22:59:33.585] M [COCOSUI] create effect shader\common_ship.fx:TShader *** time: 33.19 ms ***
+		macro:
+		#define ALPHA_TEST_ENABLE FALSE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define FOG_ENABLE TRUE 
+		#define AT_NIGHT TRUE 
+		#define SHIP_AO TRUE 
+		#define SHIP_MUL_COLOR TRUE 
+		#define INSIGNIA TRUE 
+		#define UNION_INSIGNIA FALSE 
+		#define COLOR_CHANGE FALSE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_TRANSMISSION TRUE 
+[22:59:33.589] M [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:59:33.591] M [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:59:33.620] M [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 32.17 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX FALSE 
+		#define ENABLE_SELF_BRIGHT TRUE 
+		#define AT_NIGHT TRUE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[22:59:33.623] M [COCOSUI] Try to compile shader: shader\lightmap_gl.vs
+[22:59:33.625] M [COCOSUI] Try to compile shader: shader\lightmap_gl.ps
+[22:59:33.649] M [COCOSUI] create effect shader\lightmap.fx:TShader *** time: 27.39 ms ***
+		macro:
+		#define LIGHT_MAP_ENABLE TRUE 
+		#define LIT_ENABLE TRUE 
+		#define ALPHA_TEST_ENABLE TRUE 
+		#define FOG_TYPE FOG_TYPE_LINEAR 
+		#define SHADOW_MAP_ENABLE FALSE 
+		#define FOG_ENABLE TRUE 
+		#define SEPARATE_ALPHA_TEX TRUE 
+		#define ENABLE_SELF_BRIGHT TRUE 
+		#define AT_NIGHT TRUE 
+		#define SNOW FALSE 
+		#define SEA_DARK_ENABLE TRUE 
+[23:01:27.531] M   <SCRIPT> ver: 2.0.0
+[23:01:58.138] M   <SCRIPT> ver: 2.0.0
+[23:01:58.138] M   <SCRIPT> ver: 2.0.0
+[23:02:00.314] M   <SCRIPT> ver: 2.0.0
+[23:02:00.314] M   <SCRIPT> ver: 2.0.0
+[23:02:00.320] M   <SCRIPT> ver: 2.0.0
+[23:02:00.320] M   <SCRIPT> ver: 2.0.0
+[23:02:02.672] M   <SCRIPT> [INFO] android back btn pop ui:  None
+[23:02:02.689] M   <SCRIPT> ver: 2.0.0
+[23:02:02.689] M   <SCRIPT> ver: 2.0.0

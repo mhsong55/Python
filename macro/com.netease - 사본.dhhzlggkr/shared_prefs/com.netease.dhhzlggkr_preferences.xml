@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="com.facebook.appevents.SessionInfo.sessionStartTime" value="1569333437895" />
+    <string name="com.facebook.appevents.SourceApplicationInfo.callingApplicationPackage"></string>
+    <string name="flyme.appid"></string>
+    <string name="fcm.registrationid">fuzgOjsNbeQ:APA91bECssuaGWzx9gxYtblrk8ogsQH46PeKcpz6B8Flv0q48q0U08rqqJC7meP9ZdpTsbSibxq8Zzr_OpO9gsGNsQg5kw1-bPJVafW1K8wZ5HkJe-Q_WF74jr_FGdZnJwpJGfOzqdzd</string>
+    <boolean name="com.facebook.appevents.SourceApplicationInfo.openedByApplink" value="false" />
+    <string name="huawei.appkey"></string>
+    <string name="gcm.senderid"></string>
+    <long name="com.facebook.appevents.SessionInfo.sessionEndTime" value="1569333483168" />
+    <string name="miui.appkey"></string>
+    <string name="flyme.appkey"></string>
+    <int name="com.facebook.appevents.SessionInfo.interruptionCount" value="2" />
+    <string name="oppo.appid"></string>
+    <string name="miui.appid"></string>
+    <string name="oppo.appkey"></string>
+    <string name="com.facebook.appevents.SessionInfo.sessionId">b148c185-1f2d-40ca-9770-e53fe6d30248</string>
+    <string name="huawei.appid"></string>
+</map>

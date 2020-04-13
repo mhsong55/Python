@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="local_push_enable_persistent" value="false" />
+    <string name="noti_ic_name">ic_push</string>
+    <string name="User_ID">dcfb481df5973836</string>
+    <string name="PopupSpaces">[{&quot;popupSpaceKey&quot;:&quot;dhhggingame&quot;,&quot;placementType&quot;:0,&quot;campaigns&quot;:[]},{&quot;popupSpaceKey&quot;:&quot;dhhgglogin&quot;,&quot;placementType&quot;:0,&quot;campaigns&quot;:[{&quot;_id&quot;:&quot;5b470d74dc9dbd1715a6dfb6&quot;,&quot;popupSpaceId&quot;:&quot;58cfa8e82d576b661af5f344&quot;,&quot;name&quot;:&quot;180712 다중클라 정책&quot;,&quot;order&quot;:2,&quot;where&quot;:&quot;{}&quot;,&quot;noticePeriodStart&quot;:&quot;2018-07-12T17:09:00+09:00&quot;,&quot;noticePeriodEnd&quot;:&quot;2068-07-12T17:09:00+09:00&quot;,&quot;noticeMax&quot;:null,&quot;noticeSessionMax&quot;:null,&quot;noticeLimitTime&quot;:null,&quot;noticeLimitMax&quot;:null,&quot;noticeTimeStart&quot;:null,&quot;noticeTimeEnd&quot;:null,&quot;noticeViewType&quot;:1,&quot;img&quot;:null,&quot;webPageUrl&quot;:&quot;https://cafe.naver.com/greatvoyage/7140&quot;,&quot;noticeLinkType&quot;:0,&quot;buttonText&quot;:null,&quot;linkUrl&quot;:null,&quot;deepLink&quot;:null,&quot;deepLinkNo&quot;:null,&quot;deepLinkUrl&quot;:null,&quot;stopTodayOption&quot;:true,&quot;ck&quot;:7272499,&quot;sub_ck&quot;:9827546,&quot;puids&quot;:null,&quot;noticeDay&quot;:null},{&quot;_id&quot;:&quot;5d8201221990b7165f09dd16&quot;,&quot;popupSpaceId&quot;:&quot;58cfa8e82d576b661af5f344&quot;,&quot;name&quot;:&quot;https://cafe.naver.com/greatvoyage/70640&quot;,&quot;order&quot;:1,&quot;where&quot;:&quot;{}&quot;,&quot;noticePeriodStart&quot;:&quot;2019-09-18T19:04:00+09:00&quot;,&quot;noticePeriodEnd&quot;:&quot;2019-09-19T11:59:00+09:00&quot;,&quot;noticeMax&quot;:null,&quot;noticeSessionMax&quot;:null,&quot;noticeLimitTime&quot;:null,&quot;noticeLimitMax&quot;:null,&quot;noticeTimeStart&quot;:null,&quot;noticeTimeEnd&quot;:null,&quot;noticeViewType&quot;:1,&quot;img&quot;:null,&quot;webPageUrl&quot;:&quot;https://cafe.naver.com/greatvoyage/70640&quot;,&quot;noticeLinkType&quot;:0,&quot;buttonText&quot;:null,&quot;linkUrl&quot;:null,&quot;deepLink&quot;:null,&quot;deepLinkNo&quot;:null,&quot;deepLinkUrl&quot;:null,&quot;stopTodayOption&quot;:true,&quot;ck&quot;:1409455,&quot;sub_ck&quot;:5980814,&quot;puids&quot;:null,&quot;noticeDay&quot;:null}]}]</string>
+    <int name="IconBackgroundColor" value="-1503473" />
+    <boolean name="IsRegisteredOnLiveOps" value="true" />
+    <long name="IsRegisteredOnLiveOpsExpire" value="1569333592724" />
+    <int name="PopupInfoRevision" value="523" />
+    <int name="sessionIndex" value="10" />
+    <int name="App_Version" value="22" />
+    <string name="adid">16f3a0cf-ad31-4bd4-8338-79f051433e60</string>
+    <string name="GCM_RegistrationId">APA91bHG6kLCRgsKKh_HC-HCW_iQd3ugXnYQI4XLDeFZEif0LGj2eS0avZQ0S0wxVAvvcJMqfm3CXI2o-Yv8PSvpU-l_S3hdhvipy9MlhoWl87ZuAgy5bQrI5AzC1onljpuufZH3qLVe</string>
+    <long name="endTimer" value="0" />
+    <long name="Start_session_time" value="10068564" />
+    <string name="large_noti_ic_name">ic_push</string>
+</map>

@@ -1,0 +1,85 @@
+<ppg3d>
+	<modules>
+		<module
+			Name = 'Python'
+			File = 'python.dll'
+		/>
+	</modules>
+	<client
+		WindowClientWidth = '1136'
+		WindowClientHeight = '640'
+		ShowLogWindow = 'True'
+		LimitDisplayRate = 'True'
+		FixedLogicRate = 'False'
+		UseCADisplayLink = 'True'
+		DumpType = '0'
+		DumpPath = 'dumps'
+		ShowDumpDlg = 'False'
+		World = '3d'
+		FmodDspBufferSize = '4096'
+		>
+		<uis>
+			<cocosui Passing = 'False' />
+			<pygame Passing = 'True' />
+		</uis>
+	</client>
+	<render
+		Depth = '32'
+		MultiSample = '0'
+		VSync = 'False'
+		OneLightOptimize = 'True'
+		EffectCachePath = 'shader/effect_cache'
+		UseShaderCache = 'True'
+		EnableRenderThread = 'False'
+		UseMetal = 'False'
+		EnableShadowMap = 'False'
+		EnableTextureSizeList = 'True'
+		TextureSizeListPath = 'imagelist.xml'
+		>
+	</render>
+	<cocosui
+		EnableBatchOptimize = "True"
+		>
+	</cocosui>
+	<world
+		MergeStaticModel = 'True'
+		SubMeshBatching	 = 'False'
+		HardwareInstancing = 'False' 
+		DynamicDPBatching = 'False'
+		UseClassifiedVertexPool = 'True'
+		GpuSkinningEnable = 'False'
+		PixelDecal = 'False'
+		GpuParticle = 'False'
+		EnableUpdateNormal = 'False'
+		>
+	</world>
+	<python
+		ThreadEnable = 'True'
+		>
+	</python>
+	<filesystems>
+		<filesystem name='res'>
+			<loader name='discrete' opener='sys' root='%DOC_DIR%\res' depth = '0'/> 
+			<loader name='npk' opener='sys' root='%DOC_DIR%\res3' depth = '0'/> 
+			<loader name='npk' opener='sys' root='%DOC_DIR%\res2' depth = '0'/> 
+			<loader name='npk' opener='sys' root='%DOC_DIR%\res' depth = '0'/> 
+			<loader name='discrete' opener='sys' root='%WORK_DIR%\res_patch' depth = '0'/>
+			<loader name='discrete' opener='sys' root='%WORK_DIR%\res' depth = '0'/> 
+			<loader name='npk' opener='sys' root='%WORK_DIR%\res3' depth = '0'/>
+			<loader name='npk' opener='sys' root='%WORK_DIR%\res2' depth = '0'/> 
+			<loader name='npk' opener='sys' root='%WORK_DIR%\res' depth = '0'/> 
+		</filesystem>
+		<filesystem name='script'>
+			<loader name='discrete' opener='sys' root='%WORK_DIR%\script_patch' depth = '0'/> 
+			<loader name='discrete' opener='sys' root='%WORK_DIR%\script' depth = '0'/> 
+			<loader name='npk' opener='sys' root='%WORK_DIR%\script' depth = '0'/>
+		</filesystem>
+	</filesystems>
+	<!--
+	<profiling
+		PerfSystem = 'False'
+		DebugPort = '7776'
+	>
+	</profiling>
+	-->
+</ppg3d>

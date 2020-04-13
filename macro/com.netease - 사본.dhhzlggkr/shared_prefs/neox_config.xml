@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="NeedResetProgramWhenVBChange" value="false" />
+    <boolean name="SupportInternalBGRA" value="true" />
+    <boolean name="NeedFlushForDepthBuffer" value="false" />
+    <string name="NeoXRoot">/storage/emulated/0/Android/data/com.netease.dhhzlggkr/files/netease/voyage</string>
+    <boolean name="ForceDisableBinaryShader" value="false" />
+    <boolean name="ForceFinishAfterUnlock" value="false" />
+    <int name="RealWidth" value="960" />
+    <boolean name="UseShaderCache" value="false" />
+    <boolean name="ModifyFmodDspBuffer" value="false" />
+    <boolean name="ShadowMapDepthSameWithScreen" value="false" />
+    <int name="Storage" value="0" />
+    <boolean name="ForceDisableGLMap" value="false" />
+    <boolean name="EnableThreadedGPURes" value="true" />
+    <string name="DEVICE_RELEASE">5.1.1</string>
+    <boolean name="ForceDisableBatching" value="false" />
+    <int name="RealHeight" value="540" />
+    <boolean name="EnableShadowMap" value="true" />
+    <boolean name="SupportFloatTexture" value="true" />
+    <boolean name="EnableRenderThread" value="true" />
+    <boolean name="need_remove_shader_cache" value="false" />
+</map>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="app_launch_count" value="11" />
+    <long name="app_first_launch_info" value="1568113648" />
+    <string name="install_datetime">20190910200726</string>
+    <long name="referral_key" value="0" />
+    <long name="adbrix_user_no" value="1242148593161342382" />
+    <int name="shard_no" value="12" />
+    <string name="last_referral_datetime"></string>
+    <long name="reengagement_conversion_key" value="-1" />
+    <string name="subreferral_key">null</string>
+    <long name="life_hour_start_time" value="1568113651142" />
+    <string name="last_referral_data"></string>
+    <int name="channel_type" value="1" />
+    <long name="last_referral_key" value="-1" />
+</map>

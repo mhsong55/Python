@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="appsflyerConversionDataRequestRetries" value="0" />
+    <string name="CACHED_CHANNEL">google</string>
+    <int name="appsFlyerCount" value="11" />
+    <long name="AppsFlyerTimePassedSincePrevLaunch" value="1569333483163" />
+    <string name="sentSuccessfully">true</string>
+    <string name="referrer">utm_source=(not%20set)&amp;utm_medium=(not%20set)</string>
+    <int name="versionCode" value="22" />
+    <string name="imeiCached">352003030220253</string>
+    <string name="appsFlyerFirstInstall">2019-09-10_0807+0900</string>
+    <string name="androidIdCached">dcfb481df5973836</string>
+    <int name="appsFlyerInAppEventCount" value="12" />
+</map>

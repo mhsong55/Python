@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="initial_ad_id">16f3a0cf-ad31-4bd4-8338-79f051433e60</string>
+    <boolean name="fts" value="true" />
+    <long name="firstStartTime" value="1568113648591" />
+    <boolean name="IsSynAdbrix" value="true" />
+    <long name="ServerBaseTimeOffset" value="671" />
+    <string name="LastDailyRentionDate">2019-09-24 22:56:46</string>
+</map>
